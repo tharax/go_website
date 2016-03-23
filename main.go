@@ -2,14 +2,17 @@ package main
 
 import (
 	"fmt"
+	"net"
 	"net/http"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+	host, _, _ := net.SplitHostPort(r.Host)
+	fmt.Fprintf(w, "Hello from %s", host)
 }
 
 func main() {
 	http.HandleFunc("/", handler)
+	http.ListenAndServe(":80", nil)
 	http.ListenAndServe(":8080", nil)
 }
