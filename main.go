@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	host, port, _ := net.SplitHostPort(r.Host)
-	fmt.Fprintf(w, "Hello from %s on port %s", host, port)
+	fmt.Fprintf(w, "Hello from %s on port %s, %s", host, port, r.Host)
 }
 
 func main() {
