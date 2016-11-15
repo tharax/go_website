@@ -6,9 +6,9 @@ func main() {
 	mux := http.NewServeMux()
 
 	rhpr := http.RedirectHandler("peterrosser.com", 8080)
-	mux.Handle("/peterrosser.com", rhpr)
+	mux.Handle("/peterrosser", rhpr)
 	rhtft := http.RedirectHandler("thefirsttrust.org", 8080)
-	mux.Handle("/thefirsttrust.com", rhtft)
+	mux.Handle("/thefirsttrust", rhtft)
 	rhlh := http.RedirectHandler("localhost", 8080)
 	mux.Handle("/localhost", rhlh)
 
