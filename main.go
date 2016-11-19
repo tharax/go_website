@@ -3,14 +3,8 @@ package main
 import "net/http"
 
 func main() {
-	mux := http.NewServeMux()
-
-	rhpr := http.RedirectHandler("peterrosser.com", 8080)
-	mux.Handle("/peterrosser", rhpr)
-	rhtft := http.RedirectHandler("thefirsttrust.org", 8080)
-	mux.Handle("/thefirsttrust", rhtft)
-	rhlh := http.RedirectHandler("localhost", 8080)
-	mux.Handle("/localhost", rhlh)
-
-	http.ListenAndServe(":8080", mux)
+	http.Handle("peterrosser.com/", http.FileServer(http.Dir("./peterrosser")))
+	http.Handle("thefirsttrust.org/", http.FileServer(http.Dir("./thefirsttrust")))
+	http.Handle("localhost/", http.FileServer(http.Dir("./localhost")))
+	http.ListenAndServe(":80", nil)
 }
