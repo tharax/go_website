@@ -1,6 +1,8 @@
 package main
 
 import "net/http"
+import "crypto/tls"
+import "log"
 
 func main() {
 
@@ -45,10 +47,10 @@ type peterServer struct {
 	serverFolder string
 }
 
-func startServer(server peterServer) {
+func startServer(ps peterServer) {
 	cfg := &tls.Config{}
 
-	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+peterServer.serverName+"/cert.pem", "/etc/letsencrypt/live/"+peterServer.serverName+"/privkey.pem")
+	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+ps.serverName+"/cert.pem", "/etc/letsencrypt/live/"+ps.serverName+"/privkey.pem")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -60,7 +62,7 @@ func startServer(server peterServer) {
 
 	server := http.Server{
 		Addr:      ":443",
-		Handler:   http.FileServer(http.Dir(serverFolder)),
+		Handler:   http.FileServer(http.Dir(ps.serverFolder)),
 		TLSConfig: cfg,
 	}
 
