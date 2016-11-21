@@ -4,6 +4,9 @@ import "net/http"
 
 func main() {
 
+	// redirect every http request to https
+	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
+
 	//This is only here for testing.
 	http.Handle("localhost/", http.FileServer(http.Dir("./localhost")))
 
@@ -15,4 +18,8 @@ func main() {
 
 	//By using "nil" we use the default mux.
 	http.ListenAndServeTLS(":443", "/etc/letsencrypt/live/peterrosser.com/cert.pem", "/etc/letsencrypt/live/peterrosser.com/privkey.pem", nil)
+}
+
+func redirect(w http.ResponseWriter, req *http.Request) {
+    http.Redirect(w, req, "https://" + req.Host + req.URL.String(), http.StatusMovedPermanently)
 }
