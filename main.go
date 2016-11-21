@@ -8,7 +8,7 @@ func main() {
 	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
 
 	startSimpleServer("peterrosser.com", "./peterrosser")
-	//go startSimpleServer("thefirsttrust.org", "./thefirsttrust")
+	startSimpleServer("thefirsttrust.org", "./thefirsttrust")
 	//go startSimpleServer("rosser.software", "./rossersoftware")
 	//go startSimpleServer("rossersoftware.com", "./rossersoftware")
 }
