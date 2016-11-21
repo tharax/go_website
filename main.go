@@ -7,10 +7,10 @@ func main() {
 	// redirect every http request to https
 	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
 
-	go startSimpleServer("peterrosser.com", "./peterrosser")
-	go startSimpleServer("thefirsttrust.org", "./thefirsttrust")
-	go startSimpleServer("rosser.software", "./rossersoftware")
-	go startSimpleServer("rossersoftware.com", "./rossersoftware")
+	startSimpleServer("peterrosser.com", "./peterrosser")
+	//go startSimpleServer("thefirsttrust.org", "./thefirsttrust")
+	//go startSimpleServer("rosser.software", "./rossersoftware")
+	//go startSimpleServer("rossersoftware.com", "./rossersoftware")
 }
 
 func redirect(w http.ResponseWriter, req *http.Request) {
