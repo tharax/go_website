@@ -9,11 +9,7 @@ func main() {
 	// redirect every http request to https
 	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
 
-	ps := peterServer{"peterrosser.com", "./peterrosser"}
-	go startServer(ps)
-
-	tft := peterServer{"thefirsttrust.org", "./thefirsttrust"}
-	go startServer(tft)
+	startServer()
 
 	// startSimpleServer("thefirsttrust.org", "./thefirsttrust")
 	//go startSimpleServer("rosser.software", "./rossersoftware")
@@ -50,7 +46,7 @@ type peterServer struct {
 	serverFolder string
 }
 
-func startServer(ps peterServer) {
+func startServer() {
 	cfg := &tls.Config{}
 
 	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"peterrosser.com"+"/cert.pem", "/etc/letsencrypt/live/"+"peterrosser.com"+"/privkey.pem")
