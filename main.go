@@ -53,11 +53,25 @@ type peterServer struct {
 func startServer(ps peterServer) {
 	cfg := &tls.Config{}
 
-	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+ps.serverName+"/cert.pem", "/etc/letsencrypt/live/"+ps.serverName+"/privkey.pem")
+	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"peterrosser.com"+"/cert.pem", "/etc/letsencrypt/live/"+"peterrosser.com"+"/privkey.pem")
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	cfg.Certificates = append(cfg.Certificates, cert)
+	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"thefirsttrust.org"+"/cert.pem", "/etc/letsencrypt/live/"+"thefirsttrust.org"+"/privkey.pem")
+	if err != nil {
+		log.Fatal(err)
+	}
+	cfg.Certificates = append(cfg.Certificates, cert)
+	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"rosser.software"+"/cert.pem", "/etc/letsencrypt/live/"+"rosser.software"+"/privkey.pem")
+	if err != nil {
+		log.Fatal(err)
+	}
+	cfg.Certificates = append(cfg.Certificates, cert)
+	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"rossersoftware.com"+"/cert.pem", "/etc/letsencrypt/live/"+"rossersoftware.com"+"/privkey.pem")
+	if err != nil {
+		log.Fatal(err)
+	}
 	cfg.Certificates = append(cfg.Certificates, cert)
 	// keep adding remaining certs to cfg.Certificates
 
@@ -65,7 +79,7 @@ func startServer(ps peterServer) {
 
 	server := http.Server{
 		Addr:      ":443",
-		Handler:   http.FileServer(http.Dir(ps.serverFolder)),
+		Handler:   http.FileServer(http.Dir("./peterrosser")),
 		TLSConfig: cfg,
 	}
 
