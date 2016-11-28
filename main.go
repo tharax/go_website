@@ -6,33 +6,14 @@ import "log"
 
 func main() {
 
-	// redirect every http request to https
+	// redirect every http request to https.
 	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
-	go http.ListenAndServe("www", http.HandlerFunc(redirect))
 
 	cfg := &tls.Config{}
-
-	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"peterrosser.com"+"/cert.pem", "/etc/letsencrypt/live/"+"peterrosser.com"+"/privkey.pem")
-	if err != nil {
-		log.Fatal(err)
-	}
-	cfg.Certificates = append(cfg.Certificates, cert)
-	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"thefirsttrust.org"+"/cert.pem", "/etc/letsencrypt/live/"+"thefirsttrust.org"+"/privkey.pem")
-	if err != nil {
-		log.Fatal(err)
-	}
-	cfg.Certificates = append(cfg.Certificates, cert)
-	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"rosser.software"+"/cert.pem", "/etc/letsencrypt/live/"+"rosser.software"+"/privkey.pem")
-	if err != nil {
-		log.Fatal(err)
-	}
-	cfg.Certificates = append(cfg.Certificates, cert)
-	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+"rossersoftware.com"+"/cert.pem", "/etc/letsencrypt/live/"+"rossersoftware.com"+"/privkey.pem")
-	if err != nil {
-		log.Fatal(err)
-	}
-	cfg.Certificates = append(cfg.Certificates, cert)
-
+	cfg.Certificates = append(cfg.Certificates, getCert("peterrosser.com"))
+	cfg.Certificates = append(cfg.Certificates, getCert("thefirsttrust.org"))
+	cfg.Certificates = append(cfg.Certificates, getCert("rosser.software"))
+	cfg.Certificates = append(cfg.Certificates, getCert("rossersoftware.com"))
 	cfg.BuildNameToCertificate()
 
 	server := http.Server{
@@ -43,6 +24,14 @@ func main() {
 
 	server.ListenAndServeTLS("", "")
 
+}
+
+func getCert(website string) (cert Certificate) {
+	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+website+"/cert.pem", "/etc/letsencrypt/live/"+website+"/privkey.pem")
+	if err != nil {
+		log.Fatal(err)
+	}
+	return cert
 }
 
 func redirect(w http.ResponseWriter, req *http.Request) {
