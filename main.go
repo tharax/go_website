@@ -1,6 +1,5 @@
 package main
 
-import "net"
 import "net/http"
 import "crypto/tls"
 import "log"
