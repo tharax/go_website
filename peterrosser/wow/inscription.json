@@ -1,0 +1,14044 @@
+[
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 45357,
+    "learnedat": 0,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      50
+    ],
+    "id": 45358,
+    "learnedat": 50,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      125
+    ],
+    "id": 45359,
+    "learnedat": 125,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 5000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      200
+    ],
+    "id": 45360,
+    "learnedat": 200,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      275
+    ],
+    "id": 45361,
+    "learnedat": 275,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      350
+    ],
+    "id": 45363,
+    "learnedat": 350,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 350000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      65,
+      70,
+      75
+    ],
+    "creates": [
+      1180,
+      1,
+      1
+    ],
+    "id": 45382,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Scroll of Stamina",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      65,
+      70,
+      75
+    ],
+    "creates": [
+      955,
+      1,
+      1
+    ],
+    "id": 48114,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Scroll of Intellect",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      65,
+      70,
+      75
+    ],
+    "creates": [
+      1181,
+      1,
+      1
+    ],
+    "id": 48116,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Scroll of Versatility",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      85,
+      125,
+      137,
+      150
+    ],
+    "creates": [
+      37168,
+      1,
+      1
+    ],
+    "id": 48247,
+    "learnedat": 85,
+    "level": 0,
+    "name": "7Mysterious Tarot",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43115,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      35,
+      75,
+      80,
+      85
+    ],
+    "creates": [
+      37118,
+      1,
+      1
+    ],
+    "id": 48248,
+    "learnedat": 35,
+    "level": 0,
+    "name": "7Scroll of Recall",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      75,
+      80,
+      85
+    ],
+    "creates": [
+      2290,
+      1,
+      1
+    ],
+    "id": 50598,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Scroll of Intellect II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      165,
+      170,
+      175,
+      180
+    ],
+    "creates": [
+      4419,
+      5,
+      5
+    ],
+    "id": 50599,
+    "learnedat": 165,
+    "level": 0,
+    "name": "7Scroll of Intellect III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43118,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      215,
+      220,
+      225,
+      230
+    ],
+    "creates": [
+      10308,
+      2,
+      2
+    ],
+    "id": 50600,
+    "learnedat": 215,
+    "level": 0,
+    "name": "7Scroll of Intellect IV",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 4500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      260,
+      265,
+      270,
+      275
+    ],
+    "creates": [
+      27499,
+      2,
+      2
+    ],
+    "id": 50601,
+    "learnedat": 260,
+    "level": 0,
+    "name": "7Scroll of Intellect V",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      300,
+      310,
+      315,
+      320
+    ],
+    "creates": [
+      33458,
+      2,
+      2
+    ],
+    "id": 50602,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Scroll of Intellect VI",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43124,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      360,
+      365,
+      370,
+      375
+    ],
+    "creates": [
+      37091,
+      2,
+      2
+    ],
+    "id": 50603,
+    "learnedat": 360,
+    "level": 0,
+    "name": "7Scroll of Intellect VII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      410,
+      415,
+      420,
+      425
+    ],
+    "creates": [
+      37092,
+      2,
+      2
+    ],
+    "id": 50604,
+    "learnedat": 410,
+    "level": 0,
+    "name": "7Scroll of Intellect VIII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      75,
+      80,
+      85
+    ],
+    "creates": [
+      1712,
+      1,
+      1
+    ],
+    "id": 50605,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Scroll of Versatility II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      160,
+      165,
+      170,
+      175
+    ],
+    "creates": [
+      4424,
+      2,
+      2
+    ],
+    "id": 50606,
+    "learnedat": 160,
+    "level": 0,
+    "name": "7Scroll of Versatility III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43118,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      210,
+      215,
+      220,
+      225
+    ],
+    "creates": [
+      10306,
+      2,
+      2
+    ],
+    "id": 50607,
+    "learnedat": 210,
+    "level": 0,
+    "name": "7Scroll of Versatility IV",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 4500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      255,
+      260,
+      265,
+      270
+    ],
+    "creates": [
+      27501,
+      2,
+      2
+    ],
+    "id": 50608,
+    "learnedat": 255,
+    "level": 0,
+    "name": "7Scroll of Versatility V",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      295,
+      305,
+      310,
+      315
+    ],
+    "creates": [
+      33460,
+      2,
+      2
+    ],
+    "id": 50609,
+    "learnedat": 295,
+    "level": 0,
+    "name": "7Scroll of Versatility VI",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      355,
+      360,
+      365,
+      370
+    ],
+    "creates": [
+      37097,
+      2,
+      2
+    ],
+    "id": 50610,
+    "learnedat": 355,
+    "level": 0,
+    "name": "7Scroll of Versatility VII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      405,
+      410,
+      415,
+      420
+    ],
+    "creates": [
+      37098,
+      2,
+      2
+    ],
+    "id": 50611,
+    "learnedat": 405,
+    "level": 0,
+    "name": "7Scroll of Versatility VIII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      75,
+      80,
+      85
+    ],
+    "creates": [
+      1711,
+      1,
+      1
+    ],
+    "id": 50612,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Scroll of Stamina II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      155,
+      160,
+      165,
+      170
+    ],
+    "creates": [
+      4422,
+      2,
+      2
+    ],
+    "id": 50614,
+    "learnedat": 155,
+    "level": 0,
+    "name": "7Scroll of Stamina III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43118,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      205,
+      210,
+      215,
+      220
+    ],
+    "creates": [
+      10307,
+      2,
+      2
+    ],
+    "id": 50616,
+    "learnedat": 205,
+    "level": 0,
+    "name": "7Scroll of Stamina IV",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 4500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      255,
+      260,
+      265
+    ],
+    "creates": [
+      27502,
+      2,
+      2
+    ],
+    "id": 50617,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Scroll of Stamina V",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      290,
+      300,
+      305,
+      310
+    ],
+    "creates": [
+      33461,
+      2,
+      2
+    ],
+    "id": 50618,
+    "learnedat": 290,
+    "level": 0,
+    "name": "7Scroll of Stamina VI",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      355,
+      360,
+      365
+    ],
+    "creates": [
+      37093,
+      2,
+      2
+    ],
+    "id": 50619,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Scroll of Stamina VII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      400,
+      405,
+      410,
+      415
+    ],
+    "creates": [
+      37094,
+      2,
+      2
+    ],
+    "id": 50620,
+    "learnedat": 400,
+    "level": 0,
+    "name": "7Scroll of Stamina VIII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 51005,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Milling",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      35,
+      75,
+      87,
+      100
+    ],
+    "creates": [
+      38682,
+      2,
+      2
+    ],
+    "id": 52739,
+    "learnedat": 35,
+    "level": 0,
+    "name": "7Enchanting Vellum",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      45,
+      60,
+      75
+    ],
+    "creates": [
+      39469,
+      1,
+      1
+    ],
+    "id": 52843,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Moonglow Ink",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39151,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      75,
+      77,
+      80
+    ],
+    "creates": [
+      39774,
+      1,
+      1
+    ],
+    "id": 53462,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Midnight Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39334,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 300
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      350,
+      450,
+      600
+    ],
+    "creates": [
+      40919,
+      1,
+      1
+    ],
+    "id": 56948,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Glyph of the Orca",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43126,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      25,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      44922,
+      1,
+      1
+    ],
+    "id": 56965,
+    "learnedat": 25,
+    "level": 0,
+    "name": "7Glyph of Stars",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      42751,
+      1,
+      1
+    ],
+    "id": 56986,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Glyph of Crittermorph",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      41100,
+      1,
+      1
+    ],
+    "id": 57032,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Glyph of the Luminous Charger",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43122,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43535,
+      1,
+      1
+    ],
+    "id": 57209,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Glyph of the Geist",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43116,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      25,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43551,
+      1,
+      1
+    ],
+    "id": 57224,
+    "learnedat": 25,
+    "level": 0,
+    "name": "7Glyph of Foul Menagerie",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 30000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      42459,
+      1,
+      1
+    ],
+    "id": 57263,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Glyph of Felguard",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43124,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      85,
+      85,
+      90,
+      95
+    ],
+    "creates": [
+      43115,
+      1,
+      1
+    ],
+    "id": 57703,
+    "learnedat": 85,
+    "level": 0,
+    "name": "6Hunter's Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43103,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      100,
+      100,
+      105
+    ],
+    "creates": [
+      43116,
+      1,
+      1
+    ],
+    "id": 57704,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Lion's Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39338,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      125,
+      125,
+      130,
+      135
+    ],
+    "creates": [
+      43117,
+      1,
+      1
+    ],
+    "id": 57706,
+    "learnedat": 125,
+    "level": 0,
+    "name": "6Dawnstar Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43104,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      150,
+      150,
+      155
+    ],
+    "creates": [
+      43118,
+      1,
+      1
+    ],
+    "id": 57707,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Jadefire Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39339,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      175,
+      175,
+      180
+    ],
+    "creates": [
+      43119,
+      1,
+      1
+    ],
+    "id": 57708,
+    "learnedat": 175,
+    "level": 0,
+    "name": "6Royal Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43105,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      200,
+      200,
+      205
+    ],
+    "creates": [
+      43120,
+      1,
+      1
+    ],
+    "id": 57709,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Celestial Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39340,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 3000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      225,
+      225,
+      230
+    ],
+    "creates": [
+      43121,
+      1,
+      1
+    ],
+    "id": 57710,
+    "learnedat": 225,
+    "level": 0,
+    "name": "6Fiery Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43106,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 6000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      250,
+      250,
+      255
+    ],
+    "creates": [
+      43122,
+      1,
+      1
+    ],
+    "id": 57711,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Shimmering Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39341,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      275,
+      290,
+      295,
+      300
+    ],
+    "creates": [
+      43123,
+      1,
+      1
+    ],
+    "id": 57712,
+    "learnedat": 275,
+    "level": 0,
+    "name": "6Ink of the Sky",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43107,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      290,
+      295,
+      300,
+      305
+    ],
+    "creates": [
+      43124,
+      1,
+      1
+    ],
+    "id": 57713,
+    "learnedat": 290,
+    "level": 0,
+    "name": "7Ethereal Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39342,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      325,
+      325,
+      330
+    ],
+    "creates": [
+      43125,
+      1,
+      1
+    ],
+    "id": 57714,
+    "learnedat": 325,
+    "level": 0,
+    "name": "6Darkflame Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43108,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      350,
+      350,
+      355
+    ],
+    "creates": [
+      43126,
+      1,
+      1
+    ],
+    "id": 57715,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Ink of the Sea",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39343,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      375,
+      375,
+      380
+    ],
+    "creates": [
+      43127,
+      1,
+      1
+    ],
+    "id": 57716,
+    "learnedat": 375,
+    "level": 0,
+    "name": "6Snowfall Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43109,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      43334,
+      1,
+      1
+    ],
+    "id": 58287,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of the Ursol Chameleon",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      600
+    ],
+    "creates": [
+      43350,
+      1,
+      1
+    ],
+    "id": 58301,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Glyph of Lesser Proportion",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43366,
+      1,
+      1
+    ],
+    "id": 58312,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Glyph of Winged Vengeance",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43369,
+      1,
+      1
+    ],
+    "id": 58316,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Glyph of Fire From the Heavens",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43120,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43373,
+      1,
+      1
+    ],
+    "id": 58320,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Glyph of Shackle Undead",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43122,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      25,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43386,
+      1,
+      1
+    ],
+    "id": 58332,
+    "learnedat": 25,
+    "level": 0,
+    "name": "7Glyph of the Spectral Wolf",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43394,
+      1,
+      1
+    ],
+    "id": 58341,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Glyph of Soulwell",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43398,
+      1,
+      1
+    ],
+    "id": 58345,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Glyph of Gushing Wound",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      43400,
+      1,
+      1
+    ],
+    "id": 58347,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Glyph of Mighty Victory",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      15,
+      65,
+      70,
+      75
+    ],
+    "creates": [
+      3012,
+      1,
+      1
+    ],
+    "id": 58472,
+    "learnedat": 15,
+    "level": 0,
+    "name": "7Scroll of Agility",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50
+  },
+  {
+    "cat": 11,
+    "colors": [
+      85,
+      85,
+      90,
+      95
+    ],
+    "creates": [
+      1477,
+      1,
+      1
+    ],
+    "id": 58473,
+    "learnedat": 85,
+    "level": 0,
+    "name": "7Scroll of Agility II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      175,
+      180,
+      185,
+      190
+    ],
+    "creates": [
+      4425,
+      5,
+      5
+    ],
+    "id": 58476,
+    "learnedat": 175,
+    "level": 0,
+    "name": "7Scroll of Agility III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43118,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      225,
+      230,
+      235,
+      240
+    ],
+    "creates": [
+      10309,
+      2,
+      2
+    ],
+    "id": 58478,
+    "learnedat": 225,
+    "level": 0,
+    "name": "7Scroll of Agility IV",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 4500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      270,
+      275,
+      280,
+      285
+    ],
+    "creates": [
+      27498,
+      2,
+      2
+    ],
+    "id": 58480,
+    "learnedat": 270,
+    "level": 0,
+    "name": "7Scroll of Agility V",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      310,
+      320,
+      325,
+      330
+    ],
+    "creates": [
+      33457,
+      2,
+      2
+    ],
+    "id": 58481,
+    "learnedat": 310,
+    "level": 0,
+    "name": "7Scroll of Agility VI",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43124,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      370,
+      375,
+      380,
+      385
+    ],
+    "creates": [
+      43463,
+      2,
+      2
+    ],
+    "id": 58482,
+    "learnedat": 370,
+    "level": 0,
+    "name": "7Scroll of Agility VII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      420,
+      425,
+      430,
+      435
+    ],
+    "creates": [
+      43464,
+      2,
+      2
+    ],
+    "id": 58483,
+    "learnedat": 420,
+    "level": 0,
+    "name": "7Scroll of Agility VIII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      15,
+      65,
+      70,
+      75
+    ],
+    "creates": [
+      954,
+      1,
+      1
+    ],
+    "id": 58484,
+    "learnedat": 15,
+    "level": 0,
+    "name": "7Scroll of Strength",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50
+  },
+  {
+    "cat": 11,
+    "colors": [
+      80,
+      80,
+      85,
+      90
+    ],
+    "creates": [
+      2289,
+      1,
+      1
+    ],
+    "id": 58485,
+    "learnedat": 80,
+    "level": 0,
+    "name": "7Scroll of Strength II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      170,
+      175,
+      180,
+      185
+    ],
+    "creates": [
+      4426,
+      5,
+      5
+    ],
+    "id": 58486,
+    "learnedat": 170,
+    "level": 0,
+    "name": "7Scroll of Strength III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43118,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      220,
+      225,
+      230,
+      235
+    ],
+    "creates": [
+      10310,
+      2,
+      2
+    ],
+    "id": 58487,
+    "learnedat": 220,
+    "level": 0,
+    "name": "7Scroll of Strength IV",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 4500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      265,
+      270,
+      275,
+      280
+    ],
+    "creates": [
+      27503,
+      2,
+      2
+    ],
+    "id": 58488,
+    "learnedat": 265,
+    "level": 0,
+    "name": "7Scroll of Strength V",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43122,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      305,
+      315,
+      320,
+      325
+    ],
+    "creates": [
+      33462,
+      2,
+      2
+    ],
+    "id": 58489,
+    "learnedat": 305,
+    "level": 0,
+    "name": "7Scroll of Strength VI",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43124,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      365,
+      370,
+      375,
+      380
+    ],
+    "creates": [
+      43465,
+      2,
+      2
+    ],
+    "id": 58490,
+    "learnedat": 365,
+    "level": 0,
+    "name": "7Scroll of Strength VII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      415,
+      420,
+      425,
+      430
+    ],
+    "creates": [
+      43466,
+      2,
+      2
+    ],
+    "id": 58491,
+    "learnedat": 415,
+    "level": 0,
+    "name": "7Scroll of Strength VIII",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      85,
+      125,
+      137,
+      150
+    ],
+    "creates": [
+      43515,
+      1,
+      1
+    ],
+    "id": 58565,
+    "learnedat": 85,
+    "level": 0,
+    "name": "5Mystic Tome",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43115,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      205,
+      210,
+      215
+    ],
+    "creates": [
+      43850,
+      1,
+      1
+    ],
+    "id": 59387,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Certificate of Ownership",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43120,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 3000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      125,
+      150,
+      162,
+      175
+    ],
+    "creates": [
+      43654,
+      1,
+      1
+    ],
+    "id": 59475,
+    "learnedat": 125,
+    "level": 0,
+    "name": "5Tome of the Dawn",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43117,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      125,
+      150,
+      162,
+      175
+    ],
+    "creates": [
+      43655,
+      1,
+      1
+    ],
+    "id": 59478,
+    "learnedat": 125,
+    "level": 0,
+    "name": "5Book of Survival",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43117,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      125,
+      150,
+      162,
+      175
+    ],
+    "creates": [
+      44142,
+      1,
+      1
+    ],
+    "id": 59480,
+    "learnedat": 125,
+    "level": 0,
+    "name": "7Strange Tarot",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43117,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      175,
+      200,
+      205,
+      210
+    ],
+    "creates": [
+      43656,
+      1,
+      1
+    ],
+    "id": 59484,
+    "learnedat": 175,
+    "level": 0,
+    "name": "5Tome of Kings",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43119,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      175,
+      200,
+      205,
+      210
+    ],
+    "creates": [
+      43657,
+      1,
+      1
+    ],
+    "id": 59486,
+    "learnedat": 175,
+    "level": 0,
+    "name": "5Royal Guide of Escape Routes",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43119,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      175,
+      200,
+      205,
+      210
+    ],
+    "creates": [
+      44161,
+      1,
+      1
+    ],
+    "id": 59487,
+    "learnedat": 175,
+    "level": 0,
+    "name": "7Arcane Tarot",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43119,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      225,
+      250,
+      255,
+      260
+    ],
+    "creates": [
+      43660,
+      1,
+      1
+    ],
+    "id": 59489,
+    "learnedat": 225,
+    "level": 0,
+    "name": "5Fire Eater's Guide",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43121,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 6000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      225,
+      250,
+      255,
+      260
+    ],
+    "creates": [
+      43661,
+      1,
+      1
+    ],
+    "id": 59490,
+    "learnedat": 225,
+    "level": 0,
+    "name": "5Book of Stars",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43121,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 6000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      225,
+      250,
+      255,
+      260
+    ],
+    "creates": [
+      44163,
+      1,
+      1
+    ],
+    "id": 59491,
+    "learnedat": 225,
+    "level": 0,
+    "name": "7Shadowy Tarot",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43121,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 6000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      275,
+      290,
+      295,
+      300
+    ],
+    "creates": [
+      43663,
+      1,
+      1
+    ],
+    "id": 59493,
+    "learnedat": 275,
+    "level": 0,
+    "name": "5Stormbound Tome",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43123,
+        8
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      275,
+      290,
+      295,
+      300
+    ],
+    "creates": [
+      43664,
+      1,
+      1
+    ],
+    "id": 59494,
+    "learnedat": 275,
+    "level": 0,
+    "name": "5Manual of Clouds",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43123,
+        8
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      325,
+      340,
+      345,
+      350
+    ],
+    "creates": [
+      43666,
+      1,
+      1
+    ],
+    "id": 59495,
+    "learnedat": 325,
+    "level": 0,
+    "name": "5Hellfire Tome",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43125,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      325,
+      340,
+      345,
+      350
+    ],
+    "creates": [
+      43667,
+      1,
+      1
+    ],
+    "id": 59496,
+    "learnedat": 325,
+    "level": 0,
+    "name": "5Book of Clever Tricks",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43125,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      400,
+      425,
+      437,
+      450
+    ],
+    "creates": [
+      38322,
+      1,
+      1
+    ],
+    "id": 59497,
+    "learnedat": 400,
+    "level": 0,
+    "name": "4Iron-bound Tome",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43127,
+        5
+      ],
+      [
+        43102,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      400,
+      425,
+      437,
+      450
+    ],
+    "creates": [
+      44210,
+      1,
+      1
+    ],
+    "id": 59498,
+    "learnedat": 400,
+    "level": 0,
+    "name": "4Faces of Doom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43127,
+        5
+      ],
+      [
+        43102,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      275,
+      290,
+      295,
+      300
+    ],
+    "creates": [
+      44316,
+      1,
+      1
+    ],
+    "id": 59502,
+    "learnedat": 275,
+    "level": 0,
+    "name": "5Darkmoon Card",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43123,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      325,
+      350,
+      365,
+      380
+    ],
+    "creates": [
+      44317,
+      1,
+      1
+    ],
+    "id": 59503,
+    "learnedat": 325,
+    "level": 0,
+    "name": "5Greater Darkmoon Card",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43125,
+        3
+      ],
+      [
+        21886,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      400,
+      450,
+      462,
+      475
+    ],
+    "creates": [
+      44318,
+      1,
+      1
+    ],
+    "id": 59504,
+    "learnedat": 400,
+    "level": 0,
+    "name": "5Darkmoon Card of the North",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43127,
+        6
+      ],
+      [
+        35625,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      215,
+      220,
+      225
+    ],
+    "creates": [
+      44314,
+      1,
+      1
+    ],
+    "id": 60336,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Scroll of Recall II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43120,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 3000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      355,
+      360,
+      365
+    ],
+    "creates": [
+      44315,
+      1,
+      1
+    ],
+    "id": 60337,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Scroll of Recall III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43126,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      400,
+      400,
+      405
+    ],
+    "id": 61117,
+    "learnedat": 400,
+    "level": 0,
+    "name": "@Master's Inscription of the Axe",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43127,
+        1
+      ]
+    ],
+    "scaling": 4545,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      400,
+      400,
+      405
+    ],
+    "id": 61118,
+    "learnedat": 400,
+    "level": 0,
+    "name": "@Master's Inscription of the Crag",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43127,
+        1
+      ]
+    ],
+    "scaling": 4544,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      400,
+      400,
+      405
+    ],
+    "id": 61119,
+    "learnedat": 400,
+    "level": 0,
+    "name": "@Master's Inscription of the Pinnacle",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43127,
+        1
+      ]
+    ],
+    "scaling": 4543,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      400,
+      400,
+      405
+    ],
+    "id": 61120,
+    "learnedat": 400,
+    "level": 0,
+    "name": "@Master's Inscription of the Storm",
+    "nskillup": 1,
+    "reagents": [
+      [
+        43127,
+        1
+      ]
+    ],
+    "scaling": 4542,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      375,
+      387,
+      400
+    ],
+    "creates": [
+      45854,
+      0,
+      0
+    ],
+    "id": 64051,
+    "learnedat": 350,
+    "level": 0,
+    "name": "5Rituals of the Moon",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43126,
+        5
+      ],
+      [
+        35627,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      375,
+      387,
+      400
+    ],
+    "creates": [
+      45849,
+      0,
+      0
+    ],
+    "id": 64053,
+    "learnedat": 350,
+    "level": 0,
+    "name": "5Twilight Tome",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        43126,
+        5
+      ],
+      [
+        35625,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      45789,
+      1,
+      1
+    ],
+    "id": 64250,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Glyph of Crimson Banish",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      45768,
+      1,
+      1
+    ],
+    "id": 64260,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of Disguise",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      600
+    ],
+    "creates": [
+      45775,
+      1,
+      1
+    ],
+    "id": 64261,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Glyph of Deluge",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      49084,
+      1,
+      1
+    ],
+    "id": 68166,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of Thunder Strike",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      440,
+      442,
+      460
+    ],
+    "creates": [
+      49632,
+      5,
+      5
+    ],
+    "id": 69385,
+    "learnedat": 440,
+    "level": 0,
+    "name": "8Runescroll of Fortitude",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        5
+      ],
+      [
+        43127,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      505,
+      510,
+      515
+    ],
+    "creates": [
+      62251,
+      5,
+      5
+    ],
+    "id": 85785,
+    "learnedat": 500,
+    "level": 0,
+    "name": "8Runescroll of Fortitude II",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        5
+      ],
+      [
+        61981,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      425,
+      440,
+      445,
+      450
+    ],
+    "creates": [
+      61978,
+      1,
+      1
+    ],
+    "id": 86004,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Blackfallow Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61979,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      475,
+      480,
+      482,
+      485
+    ],
+    "creates": [
+      61981,
+      1,
+      1
+    ],
+    "id": 86005,
+    "learnedat": 475,
+    "level": 0,
+    "name": "6Inferno Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61980,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 90000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      425
+    ],
+    "id": 86008,
+    "learnedat": 425,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      505
+    ],
+    "id": 86375,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Swiftsteel Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61978,
+        4
+      ]
+    ],
+    "scaling": 4540,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      505
+    ],
+    "id": 86401,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Lionsmane Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61978,
+        4
+      ]
+    ],
+    "scaling": 4535,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      505
+    ],
+    "id": 86402,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Inscription of the Earth Prince",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61978,
+        4
+      ]
+    ],
+    "scaling": 4534,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      505
+    ],
+    "id": 86403,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Felfire Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        61978,
+        4
+      ]
+    ],
+    "scaling": 4533,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 75000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      450,
+      460,
+      467,
+      475
+    ],
+    "creates": [
+      60838,
+      1,
+      1
+    ],
+    "id": 86609,
+    "learnedat": 450,
+    "level": 0,
+    "name": "7Mysterious Fortune Card",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      525,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      61987,
+      1,
+      1
+    ],
+    "id": 86615,
+    "learnedat": 525,
+    "level": 0,
+    "name": "5Darkmoon Card of Destruction",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61981,
+        10
+      ],
+      [
+        52329,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      475,
+      485,
+      487,
+      490
+    ],
+    "creates": [
+      62231,
+      1,
+      1
+    ],
+    "id": 86616,
+    "learnedat": 475,
+    "level": 0,
+    "name": "5Book of Blood",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        61981,
+        3
+      ],
+      [
+        52329,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 90000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      475,
+      485,
+      487,
+      490
+    ],
+    "creates": [
+      62233,
+      1,
+      1
+    ],
+    "id": 86640,
+    "learnedat": 475,
+    "level": 0,
+    "name": "5Lord Rottington's Pressed Wisp Book",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        52329,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 90000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      510,
+      520,
+      525,
+      530
+    ],
+    "creates": [
+      62234,
+      1,
+      1
+    ],
+    "id": 86641,
+    "learnedat": 510,
+    "level": 0,
+    "name": "5Dungeoneering Guide",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        61981,
+        8
+      ],
+      [
+        52329,
+        24
+      ],
+      [
+        52326,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      510,
+      520,
+      525,
+      530
+    ],
+    "creates": [
+      62235,
+      1,
+      1
+    ],
+    "id": 86642,
+    "learnedat": 510,
+    "level": 0,
+    "name": "5Divine Companion",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        61981,
+        8
+      ],
+      [
+        52329,
+        24
+      ],
+      [
+        52328,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      510,
+      520,
+      525,
+      530
+    ],
+    "creates": [
+      62236,
+      1,
+      1
+    ],
+    "id": 86643,
+    "learnedat": 510,
+    "level": 0,
+    "name": "5Battle Tome",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        61981,
+        8
+      ],
+      [
+        52329,
+        24
+      ],
+      [
+        52325,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      480,
+      480,
+      490
+    ],
+    "creates": [
+      62239,
+      1,
+      1
+    ],
+    "id": 86644,
+    "learnedat": 480,
+    "level": 0,
+    "name": "7Origami Slime",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      490,
+      490,
+      500
+    ],
+    "creates": [
+      62238,
+      1,
+      1
+    ],
+    "id": 86645,
+    "learnedat": 490,
+    "level": 0,
+    "name": "7Origami Rock",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      500,
+      500,
+      510
+    ],
+    "creates": [
+      63246,
+      1,
+      1
+    ],
+    "id": 86646,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Origami Beetle",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      480,
+      500,
+      502,
+      505
+    ],
+    "creates": [
+      87565,
+      1,
+      1
+    ],
+    "id": 86648,
+    "learnedat": 480,
+    "level": 0,
+    "name": "5Key to the Planes",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        61981,
+        2
+      ],
+      [
+        52326,
+        2
+      ],
+      [
+        52328,
+        2
+      ],
+      [
+        52327,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 90000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      505,
+      515,
+      520,
+      525
+    ],
+    "creates": [
+      87566,
+      1,
+      1
+    ],
+    "id": 86649,
+    "learnedat": 505,
+    "level": 0,
+    "name": "5Runed Staff",
+    "nskillup": 3,
+    "reagents": [
+      [
+        79740,
+        1
+      ],
+      [
+        61981,
+        8
+      ],
+      [
+        52329,
+        24
+      ],
+      [
+        52325,
+        6
+      ],
+      [
+        62323,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 120000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      515,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      87562,
+      1,
+      1
+    ],
+    "id": 86652,
+    "learnedat": 515,
+    "level": 0,
+    "name": "5Rosethorn Staff",
+    "nskillup": 5,
+    "reagents": [
+      [
+        79740,
+        1
+      ],
+      [
+        61981,
+        12
+      ],
+      [
+        52329,
+        36
+      ],
+      [
+        52326,
+        12
+      ],
+      [
+        67319,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      515,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      87561,
+      1,
+      1
+    ],
+    "id": 86653,
+    "learnedat": 515,
+    "level": 0,
+    "name": "5Silver Inlaid Staff",
+    "nskillup": 5,
+    "reagents": [
+      [
+        79740,
+        1
+      ],
+      [
+        61981,
+        12
+      ],
+      [
+        52329,
+        36
+      ],
+      [
+        52328,
+        12
+      ],
+      [
+        67335,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      63276,
+      1,
+      1
+    ],
+    "id": 86654,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Forged Documents",
+    "nskillup": 1,
+    "races": [
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      26
+    ],
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "reqrace": 33555378,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      62056,
+      1,
+      1
+    ],
+    "id": 89244,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Forged Documents",
+    "nskillup": 1,
+    "races": [
+      1,
+      3,
+      4,
+      7,
+      11,
+      22,
+      25
+    ],
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "reqrace": 18875469,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      445,
+      450,
+      455,
+      460
+    ],
+    "creates": [
+      63305,
+      5,
+      5
+    ],
+    "id": 89368,
+    "learnedat": 445,
+    "level": 0,
+    "name": "7Scroll of Intellect IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      465,
+      470,
+      475,
+      480
+    ],
+    "creates": [
+      63304,
+      5,
+      5
+    ],
+    "id": 89369,
+    "learnedat": 465,
+    "level": 0,
+    "name": "7Scroll of Strength IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      470,
+      475,
+      480,
+      485
+    ],
+    "creates": [
+      63303,
+      5,
+      5
+    ],
+    "id": 89370,
+    "learnedat": 470,
+    "level": 0,
+    "name": "7Scroll of Agility IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      455,
+      460,
+      465,
+      470
+    ],
+    "creates": [
+      63307,
+      5,
+      5
+    ],
+    "id": 89371,
+    "learnedat": 455,
+    "level": 0,
+    "name": "7Scroll of Versatility IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      460,
+      465,
+      470,
+      475
+    ],
+    "creates": [
+      63306,
+      5,
+      5
+    ],
+    "id": 89372,
+    "learnedat": 460,
+    "level": 0,
+    "name": "7Scroll of Stamina IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      450,
+      455,
+      460,
+      465
+    ],
+    "creates": [
+      63308,
+      5,
+      5
+    ],
+    "id": 89373,
+    "learnedat": 450,
+    "level": 0,
+    "name": "7Scroll of Protection IX",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        61978,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      90,
+      100,
+      110
+    ],
+    "creates": [
+      64670,
+      1,
+      1
+    ],
+    "id": 92026,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Vanishing Powder",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39774,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 400
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      77101,
+      1,
+      1
+    ],
+    "id": 107907,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Glyph of Shadow",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43120,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      500
+    ],
+    "id": 110417,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 600000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      535,
+      540,
+      545
+    ],
+    "creates": [
+      79254,
+      1,
+      1
+    ],
+    "id": 111645,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Ink of Dreams",
+    "nskillup": 1,
+    "reagents": [
+      [
+        79251,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      535,
+      540,
+      545
+    ],
+    "creates": [
+      79255,
+      1,
+      1
+    ],
+    "id": 111646,
+    "learnedat": 500,
+    "level": 0,
+    "name": "6Starlight Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        79253,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      79318,
+      1,
+      1
+    ],
+    "id": 111830,
+    "learnedat": 600,
+    "level": 0,
+    "name": "5Darkmoon Card of Mists",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79255,
+        10
+      ],
+      [
+        79731,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      570,
+      575,
+      580
+    ],
+    "creates": [
+      79333,
+      1,
+      1
+    ],
+    "id": 111908,
+    "learnedat": 560,
+    "level": 0,
+    "name": "5Inscribed Fan",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        5
+      ],
+      [
+        76061,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      600,
+      600,
+      600
+    ],
+    "creates": [
+      79334,
+      1,
+      1
+    ],
+    "id": 111909,
+    "learnedat": 560,
+    "level": 0,
+    "name": "4Inscribed Jade Fan",
+    "nskillup": 10,
+    "reagents": [
+      [
+        79333,
+        1
+      ],
+      [
+        79255,
+        3
+      ],
+      [
+        79731,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      600,
+      600,
+      600
+    ],
+    "creates": [
+      79335,
+      1,
+      1
+    ],
+    "id": 111910,
+    "learnedat": 560,
+    "level": 0,
+    "name": "4Inscribed Red Fan",
+    "nskillup": 10,
+    "reagents": [
+      [
+        79333,
+        1
+      ],
+      [
+        79255,
+        3
+      ],
+      [
+        79731,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      570,
+      575,
+      580
+    ],
+    "creates": [
+      79339,
+      1,
+      1
+    ],
+    "id": 111917,
+    "learnedat": 560,
+    "level": 0,
+    "name": "5Rain Poppy Staff",
+    "nskillup": 10,
+    "reagents": [
+      [
+        79740,
+        1
+      ],
+      [
+        79254,
+        8
+      ],
+      [
+        76061,
+        2
+      ],
+      [
+        72237,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      79340,
+      1,
+      1
+    ],
+    "id": 111918,
+    "learnedat": 560,
+    "level": 0,
+    "name": "4Inscribed Crane Staff",
+    "nskillup": 30,
+    "reagents": [
+      [
+        79339,
+        1
+      ],
+      [
+        79255,
+        20
+      ],
+      [
+        79731,
+        20
+      ],
+      [
+        76061,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      79341,
+      1,
+      1
+    ],
+    "id": 111919,
+    "learnedat": 560,
+    "level": 0,
+    "name": "4Inscribed Serpent Staff",
+    "nskillup": 30,
+    "reagents": [
+      [
+        79339,
+        1
+      ],
+      [
+        79255,
+        20
+      ],
+      [
+        79731,
+        20
+      ],
+      [
+        76061,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      570,
+      575,
+      580
+    ],
+    "creates": [
+      79342,
+      1,
+      1
+    ],
+    "id": 111920,
+    "learnedat": 560,
+    "level": 0,
+    "name": "5Ghost Iron Staff",
+    "nskillup": 10,
+    "reagents": [
+      [
+        79740,
+        1
+      ],
+      [
+        79254,
+        8
+      ],
+      [
+        76061,
+        2
+      ],
+      [
+        72096,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      560,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      79343,
+      1,
+      1
+    ],
+    "id": 111921,
+    "learnedat": 560,
+    "level": 0,
+    "name": "4Inscribed Tiger Staff",
+    "nskillup": 30,
+    "reagents": [
+      [
+        79342,
+        1
+      ],
+      [
+        79255,
+        20
+      ],
+      [
+        79731,
+        20
+      ],
+      [
+        76061,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      580,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      79257,
+      5,
+      5
+    ],
+    "id": 112045,
+    "learnedat": 580,
+    "level": 0,
+    "name": "8Runescroll of Fortitude III",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        5
+      ],
+      [
+        79254,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      80587,
+      1,
+      1
+    ],
+    "id": 112429,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Glyph of Hawk Feast",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      80588,
+      1,
+      1
+    ],
+    "id": 112430,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of Burning Anger",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      87881,
+      1,
+      1
+    ],
+    "id": 112462,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of Crackling Tiger Lightning",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      350,
+      450,
+      600
+    ],
+    "creates": [
+      87883,
+      1,
+      1
+    ],
+    "id": 112464,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Glyph of Honor",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43126,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      87885,
+      1,
+      1
+    ],
+    "id": 112466,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Glyph of Rising Tiger Kick",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43122,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      350,
+      450,
+      600
+    ],
+    "creates": [
+      87888,
+      1,
+      1
+    ],
+    "id": 112469,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Glyph of Fighting Pose",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43126,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      525,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      79731,
+      1,
+      1
+    ],
+    "id": 112996,
+    "learnedat": 525,
+    "level": 0,
+    "name": "5Scroll of Wisdom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      85221,
+      1,
+      1
+    ],
+    "id": 123781,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Glyph of the Blazing Trail",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43116,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      79538,
+      1,
+      1
+    ],
+    "id": 124466,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of the Heavens",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      600
+    ],
+    "creates": [
+      87277,
+      1,
+      1
+    ],
+    "id": 126696,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Glyph of the Val'kyr",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      450,
+      600
+    ],
+    "creates": [
+      87392,
+      1,
+      1
+    ],
+    "id": 126800,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Glyph of Shadowy Friends",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      87647,
+      1,
+      1
+    ],
+    "id": 126988,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Origami Crane",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      87648,
+      1,
+      1
+    ],
+    "id": 126989,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Origami Frog",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      570,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87560,
+      1,
+      1
+    ],
+    "id": 126994,
+    "learnedat": 570,
+    "level": 0,
+    "name": "4Greater Ox Horn Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79255,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      570,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87559,
+      1,
+      1
+    ],
+    "id": 126995,
+    "learnedat": 570,
+    "level": 0,
+    "name": "4Greater Crane Wing Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79255,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      570,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      83007,
+      1,
+      1
+    ],
+    "id": 126996,
+    "learnedat": 570,
+    "level": 0,
+    "name": "4Greater Tiger Claw Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79255,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      570,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      83006,
+      1,
+      1
+    ],
+    "id": 126997,
+    "learnedat": 570,
+    "level": 0,
+    "name": "4Greater Tiger Fang Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79255,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      89367,
+      1,
+      1
+    ],
+    "id": 127007,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Yu'lon Kite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      605,
+      607,
+      610
+    ],
+    "creates": [
+      89368,
+      1,
+      1
+    ],
+    "id": 127009,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Chi-ji Kite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      540,
+      550,
+      550,
+      550
+    ],
+    "creates": [
+      87580,
+      1,
+      1
+    ],
+    "id": 127016,
+    "learnedat": 540,
+    "level": 0,
+    "name": "5Tiger Fang Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      540,
+      550,
+      550,
+      550
+    ],
+    "creates": [
+      87579,
+      1,
+      1
+    ],
+    "id": 127017,
+    "learnedat": 540,
+    "level": 0,
+    "name": "5Tiger Claw Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      540,
+      550,
+      550,
+      550
+    ],
+    "creates": [
+      87578,
+      1,
+      1
+    ],
+    "id": 127018,
+    "learnedat": 540,
+    "level": 0,
+    "name": "5Crane Wing Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      540,
+      550,
+      550,
+      550
+    ],
+    "creates": [
+      87577,
+      1,
+      1
+    ],
+    "id": 127019,
+    "learnedat": 540,
+    "level": 0,
+    "name": "5Ox Horn Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      575,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87585,
+      1,
+      1
+    ],
+    "id": 127020,
+    "learnedat": 575,
+    "level": 0,
+    "name": "4Secret Tiger Fang Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      575,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87584,
+      1,
+      1
+    ],
+    "id": 127021,
+    "learnedat": 575,
+    "level": 0,
+    "name": "4Secret Tiger Claw Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      575,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87582,
+      1,
+      1
+    ],
+    "id": 127023,
+    "learnedat": 575,
+    "level": 0,
+    "name": "4Secret Crane Wing Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      575,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87581,
+      1,
+      1
+    ],
+    "id": 127024,
+    "learnedat": 575,
+    "level": 0,
+    "name": "4Secret Ox Horn Inscription",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87811,
+      0,
+      0
+    ],
+    "id": 127378,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Commissioned Painting",
+    "nskillup": 5,
+    "reagents": [
+      [
+        87812,
+        1
+      ],
+      [
+        39354,
+        10
+      ],
+      [
+        76061,
+        5
+      ],
+      [
+        79255,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87814,
+      0,
+      0
+    ],
+    "id": 127391,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Engraved Jade Disk",
+    "nskillup": 5,
+    "reagents": [
+      [
+        87815,
+        1
+      ],
+      [
+        76061,
+        4
+      ],
+      [
+        79255,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      87831,
+      0,
+      0
+    ],
+    "id": 127481,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Inscribed Monument",
+    "nskillup": 5,
+    "reagents": [
+      [
+        88807,
+        1
+      ],
+      [
+        76061,
+        6
+      ],
+      [
+        79255,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      88806,
+      0,
+      0
+    ],
+    "id": 128922,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Portrait of Madam Goya",
+    "nskillup": 5,
+    "reagents": [
+      [
+        88808,
+        1
+      ],
+      [
+        76061,
+        5
+      ],
+      [
+        79255,
+        6
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      89868,
+      1,
+      1
+    ],
+    "id": 131152,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Glyph of the Cheetah",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43122,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      600,
+      605
+    ],
+    "creates": [
+      102483,
+      1,
+      1
+    ],
+    "id": 146638,
+    "learnedat": 600,
+    "level": 0,
+    "name": "5Crafted Malevolent Gladiator's Medallion of Tenacity",
+    "nskillup": 1,
+    "reagents": [
+      [
+        72096,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104099,
+      1,
+      1
+    ],
+    "id": 148266,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Glyph of the Skeleton",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104104,
+      1,
+      1
+    ],
+    "id": 148270,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Glyph of the Unbound Elemental",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104105,
+      1,
+      1
+    ],
+    "id": 148271,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Glyph of Evaporation",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43116,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      600
+    ],
+    "creates": [
+      104108,
+      1,
+      1
+    ],
+    "id": 148274,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Glyph of Pillar of Light",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      290,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104120,
+      1,
+      1
+    ],
+    "id": 148276,
+    "learnedat": 290,
+    "level": 0,
+    "name": "7Glyph of the Sha",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43124,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      25,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104122,
+      1,
+      1
+    ],
+    "id": 148278,
+    "learnedat": 25,
+    "level": 0,
+    "name": "7Glyph of Inspired Hymns",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39469,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104126,
+      1,
+      1
+    ],
+    "id": 148281,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Glyph of Spirit Raptors",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43116,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104127,
+      1,
+      1
+    ],
+    "id": 148282,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Glyph of Lingering Ancestors",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        39774,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      104138,
+      1,
+      1
+    ],
+    "id": 148292,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Glyph of the Weaponmaster",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        43120,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "id": 158748,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      112270,
+      1,
+      1
+    ],
+    "id": 163294,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Darkmoon Card of Draenor",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        112377,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      75,
+      175,
+      225,
+      275
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165304,
+    "learnedat": 75,
+    "level": 0,
+    "name": "7Research: Midnight Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        39774,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      200,
+      250,
+      300
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165456,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Research: Lion's Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43116,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      250,
+      300,
+      350
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165460,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Research: Jadefire Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43118,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      200,
+      300,
+      350,
+      400
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165461,
+    "learnedat": 200,
+    "level": 0,
+    "name": "7Research: Celestial Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43120,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      350,
+      400,
+      450
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165463,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Research: Shimmering Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43122,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      290,
+      390,
+      440,
+      490
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165464,
+    "learnedat": 290,
+    "level": 0,
+    "name": "7Research: Ethereal Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43124,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      450,
+      500,
+      550
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165465,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Research: Ink of the Sea",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        43126,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      425,
+      525,
+      560,
+      595
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165466,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Research: Blackfallow Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        61978,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      500,
+      595,
+      597,
+      600
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165467,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Research: Ink of Dreams",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      25,
+      125,
+      175,
+      225
+    ],
+    "creates": [
+      141644,
+      0,
+      0
+    ],
+    "id": 165564,
+    "learnedat": 25,
+    "level": 0,
+    "name": "7Research: Moonglow Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        39469,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      113131,
+      1,
+      1
+    ],
+    "id": 165804,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Warmaster's Firestick",
+    "nskillup": 10,
+    "reagents": [
+      [
+        4470,
+        1
+      ],
+      [
+        112377,
+        100
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      113134,
+      1,
+      1
+    ],
+    "id": 166356,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Crystalfire Spellstaff",
+    "nskillup": 10,
+    "reagents": [
+      [
+        4470,
+        1
+      ],
+      [
+        112377,
+        100
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      111526,
+      1,
+      1
+    ],
+    "id": 166359,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Etched-Blade Warstaff",
+    "nskillup": 10,
+    "reagents": [
+      [
+        4470,
+        1
+      ],
+      [
+        112377,
+        100
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      113270,
+      1,
+      1
+    ],
+    "id": 166363,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Shadowtome",
+    "nskillup": 10,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        112377,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      128010,
+      1,
+      1
+    ],
+    "id": 166366,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Weapon Crystal",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        70
+      ],
+      [
+        113262,
+        15
+      ],
+      [
+        118472,
+        15
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      113289,
+      1,
+      1
+    ],
+    "id": 166432,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Volatile Crystal",
+    "nskillup": 1,
+    "reagents": [
+      [
+        114931,
+        12
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      113355,
+      10,
+      10
+    ],
+    "id": 166669,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Card of Omens",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        10
+      ],
+      [
+        112377,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      113992,
+      1,
+      1
+    ],
+    "id": 167950,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Research: Warbinder's Ink",
+    "nskillup": 3,
+    "reagents": [
+      [
+        39354,
+        3
+      ],
+      [
+        113111,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      800,
+      1000
+    ],
+    "creates": [
+      112377,
+      4,
+      4
+    ],
+    "id": 169081,
+    "learnedat": 1,
+    "level": 0,
+    "name": "6War Paints",
+    "nskillup": 10,
+    "reagents": [
+      [
+        114931,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      118601,
+      1,
+      1
+    ],
+    "id": 175389,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Ocean Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        114931,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      118602,
+      1,
+      1
+    ],
+    "id": 175390,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Laughing Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        114931,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      602,
+      605
+    ],
+    "creates": [
+      118603,
+      1,
+      1
+    ],
+    "id": 175392,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Savage Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        114931,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      119126,
+      2,
+      2
+    ],
+    "id": 176513,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Draenor Merchant Order",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        2
+      ],
+      [
+        114931,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      650,
+      700
+    ],
+    "creates": [
+      119297,
+      1,
+      1
+    ],
+    "id": 177045,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Secrets of Draenor Inscription",
+    "nskillup": 1,
+    "reagents": [
+      [
+        114931,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "creates": [
+      128018,
+      1,
+      1
+    ],
+    "id": 178248,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Ensorcelled Tarot",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        70
+      ],
+      [
+        113262,
+        15
+      ],
+      [
+        118472,
+        15
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      600,
+      600
+    ],
+    "creates": [
+      113111,
+      1,
+      1
+    ],
+    "id": 178497,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Warbinder's Ink",
+    "nskillup": 1,
+    "reagents": [
+      [
+        114931,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      600,
+      600,
+      600
+    ],
+    "creates": [
+      114942,
+      1,
+      1
+    ],
+    "id": 178550,
+    "learnedat": 600,
+    "level": 0,
+    "name": "7Draenic Mortar",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109118,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "creates": [
+      112377,
+      2,
+      2
+    ],
+    "id": 182125,
+    "learnedat": 1,
+    "level": 0,
+    "name": "6The Spirit of War",
+    "nskillup": 1,
+    "reagents": [
+      [
+        120945,
+        1
+      ],
+      [
+        114931,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      500,
+      600
+    ],
+    "creates": [
+      118061,
+      1,
+      1
+    ],
+    "id": 182158,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Glyph of the Sun",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        79254,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      127717,
+      1,
+      1
+    ],
+    "id": 187494,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Mighty Weapon Crystal",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        175
+      ],
+      [
+        113264,
+        30
+      ],
+      [
+        127759,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      127718,
+      1,
+      1
+    ],
+    "id": 187495,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Mighty Ensorcelled Tarot",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        175
+      ],
+      [
+        113261,
+        30
+      ],
+      [
+        127759,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      127735,
+      1,
+      1
+    ],
+    "id": 187518,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Savage Weapon Crystal",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        350
+      ],
+      [
+        113264,
+        60
+      ],
+      [
+        127759,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      702,
+      705
+    ],
+    "creates": [
+      127736,
+      1,
+      1
+    ],
+    "id": 187519,
+    "learnedat": 1,
+    "level": 0,
+    "name": "4Savage Ensorcelled Tarot",
+    "nskillup": 15,
+    "reagents": [
+      [
+        112377,
+        350
+      ],
+      [
+        113261,
+        60
+      ],
+      [
+        127759,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190381,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Frostweed",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109124,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190382,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Fireweed",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109125,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190383,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Gorgrond Flytrap",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109126,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190384,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Starflower",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109127,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190385,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Nagrand Arrowbloom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109128,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      114931,
+      0,
+      0
+    ],
+    "id": 190386,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Talador Orchid",
+    "nskillup": 1,
+    "reagents": [
+      [
+        109129,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128712,
+      1,
+      1
+    ],
+    "id": 191659,
+    "learnedat": 720,
+    "level": 0,
+    "name": "5Darkmoon Card of the Legion",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        24
+      ],
+      [
+        129032,
+        50
+      ],
+      [
+        124106,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      720,
+      740
+    ],
+    "creates": [
+      128980,
+      0,
+      0
+    ],
+    "id": 192802,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Scroll of Forgotten Knowledge",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129032,
+        35
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      700,
+      720,
+      740
+    ],
+    "creates": [
+      129211,
+      0,
+      0
+    ],
+    "id": 192804,
+    "learnedat": 700,
+    "level": 0,
+    "name": "6Steamy Romance Novel Kit",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        24
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128987,
+      0,
+      0
+    ],
+    "id": 192808,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Ursoc",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128988,
+      0,
+      0
+    ],
+    "id": 192809,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Nythendra",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128989,
+      0,
+      0
+    ],
+    "id": 192810,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Il'gynoth, The Heart of Corruption",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128990,
+      0,
+      0
+    ],
+    "id": 192811,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Dragons of Nightmare",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128991,
+      0,
+      0
+    ],
+    "id": 192812,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Xavius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128992,
+      0,
+      0
+    ],
+    "id": 192813,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Elerethe Renferal",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      720,
+      730,
+      740
+    ],
+    "creates": [
+      128993,
+      0,
+      0
+    ],
+    "id": 192814,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Cenarius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128994,
+      0,
+      0
+    ],
+    "id": 192815,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Skorpyron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128995,
+      0,
+      0
+    ],
+    "id": 192816,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Chronomatic Anomaly",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128996,
+      0,
+      0
+    ],
+    "id": 192817,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Trilliax",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128997,
+      0,
+      0
+    ],
+    "id": 192818,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Spellblade Aluriel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128998,
+      0,
+      0
+    ],
+    "id": 192819,
+    "learnedat": 740,
+    "level": 0,
+    "name": "7Vantus Rune: Tichondrius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128999,
+      0,
+      0
+    ],
+    "id": 192820,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: High Botanist Tel'arn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      129000,
+      0,
+      0
+    ],
+    "id": 192821,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Krosus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      129001,
+      0,
+      0
+    ],
+    "id": 192822,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Star Augur Etraeus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      129002,
+      0,
+      0
+    ],
+    "id": 192823,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Grand Magistrix Elisande",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      129003,
+      0,
+      0
+    ],
+    "id": 192824,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Gul'dan",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129017,
+      0,
+      0
+    ],
+    "id": 192838,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Ghostly Fade",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129018,
+      0,
+      0
+    ],
+    "id": 192839,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Fel Imp",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        15
+      ],
+      [
+        129032,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129019,
+      0,
+      0
+    ],
+    "id": 192840,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Sparkles",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139358,
+      0,
+      0
+    ],
+    "id": 192841,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Blackout",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129021,
+      0,
+      0
+    ],
+    "id": 192842,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Sentinel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139338,
+      0,
+      0
+    ],
+    "id": 192843,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Crackling Crane Lightning",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137287,
+      0,
+      0
+    ],
+    "id": 192844,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Spectral Raptor",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137269,
+      0,
+      0
+    ],
+    "id": 192845,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Stellar Flare",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137293,
+      0,
+      0
+    ],
+    "id": 192846,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Queen",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139274,
+      0,
+      0
+    ],
+    "id": 192848,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Wraith Walker",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129028,
+      0,
+      0
+    ],
+    "id": 192849,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Fel Touched Souls",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129029,
+      0,
+      0
+    ],
+    "id": 192850,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Crackling Flames",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139417,
+      0,
+      0
+    ],
+    "id": 192851,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Fallow Wings",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139436,
+      0,
+      0
+    ],
+    "id": 192852,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Tattered Wings",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128978,
+      0,
+      0
+    ],
+    "id": 192854,
+    "learnedat": 740,
+    "level": 0,
+    "name": "5Prophecy Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        7
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128978,
+      0,
+      0
+    ],
+    "id": 192855,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Prophecy Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        5
+      ],
+      [
+        129032,
+        45
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128978,
+      0,
+      0
+    ],
+    "id": 192856,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Prophecy Tarot",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128712,
+      1,
+      1
+    ],
+    "id": 192859,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Darkmoon Card of the Legion",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        18
+      ],
+      [
+        129032,
+        40
+      ],
+      [
+        124106,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128987,
+      0,
+      0
+    ],
+    "id": 192860,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Ursoc",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128988,
+      0,
+      0
+    ],
+    "id": 192861,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Nythendra",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128989,
+      0,
+      0
+    ],
+    "id": 192862,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Il'gynoth, The Heart of Corruption",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128990,
+      0,
+      0
+    ],
+    "id": 192863,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Dragons of Nightmare",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128991,
+      0,
+      0
+    ],
+    "id": 192864,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Xavius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128992,
+      0,
+      0
+    ],
+    "id": 192865,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Elerethe Renferal",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      128993,
+      0,
+      0
+    ],
+    "id": 192866,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Cenarius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128994,
+      0,
+      0
+    ],
+    "id": 192867,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Skorpyron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128995,
+      0,
+      0
+    ],
+    "id": 192868,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Chronomatic Anomaly",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128996,
+      0,
+      0
+    ],
+    "id": 192869,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Trilliax",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128997,
+      0,
+      0
+    ],
+    "id": 192870,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Spellblade Aluriel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128998,
+      0,
+      0
+    ],
+    "id": 192871,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Tichondrius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128999,
+      0,
+      0
+    ],
+    "id": 192872,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: High Botanist Tel'arn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      129000,
+      0,
+      0
+    ],
+    "id": 192873,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Krosus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      129001,
+      0,
+      0
+    ],
+    "id": 192874,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Star Augur Etraeus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      129002,
+      0,
+      0
+    ],
+    "id": 192875,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Grand Magistrix Elisande",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      129003,
+      0,
+      0
+    ],
+    "id": 192876,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Gul'dan",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128712,
+      1,
+      1
+    ],
+    "id": 192890,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Darkmoon Card of the Legion",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        30
+      ],
+      [
+        124106,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128987,
+      0,
+      0
+    ],
+    "id": 192891,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Ursoc",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128988,
+      0,
+      0
+    ],
+    "id": 192892,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Nythendra",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128989,
+      0,
+      0
+    ],
+    "id": 192893,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Il'gynoth, The Heart of Corruption",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128990,
+      0,
+      0
+    ],
+    "id": 192894,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Dragons of Nightmare",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128991,
+      0,
+      0
+    ],
+    "id": 192895,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Xavius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128992,
+      0,
+      0
+    ],
+    "id": 192896,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Elerethe Renferal",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      128993,
+      0,
+      0
+    ],
+    "id": 192897,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Cenarius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128994,
+      0,
+      0
+    ],
+    "id": 192898,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Skorpyron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128995,
+      0,
+      0
+    ],
+    "id": 192899,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Chronomatic Anomaly",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128996,
+      0,
+      0
+    ],
+    "id": 192900,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Trilliax",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128997,
+      0,
+      0
+    ],
+    "id": 192901,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Spellblade Aluriel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128998,
+      0,
+      0
+    ],
+    "id": 192902,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Tichondrius",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      128999,
+      0,
+      0
+    ],
+    "id": 192903,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: High Botanist Tel'arn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      129000,
+      0,
+      0
+    ],
+    "id": 192904,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Krosus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      129001,
+      0,
+      0
+    ],
+    "id": 192905,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Star Augur Etraeus",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      129002,
+      0,
+      0
+    ],
+    "id": 192906,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Grand Magistrix Elisande",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      780,
+      790,
+      800
+    ],
+    "creates": [
+      129003,
+      0,
+      0
+    ],
+    "id": 192907,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Gul'dan",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "id": 195115,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Inscription",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      136692,
+      0,
+      0
+    ],
+    "id": 209510,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Aqual Mark",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        100
+      ],
+      [
+        124124,
+        8
+      ],
+      [
+        124106,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      136693,
+      0,
+      0
+    ],
+    "id": 209511,
+    "learnedat": 1,
+    "level": 0,
+    "name": "5Straszan Mark",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        130
+      ],
+      [
+        124124,
+        8
+      ],
+      [
+        124106,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      129100,
+      0,
+      0
+    ],
+    "id": 209658,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Aethril",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124101,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      136926,
+      0,
+      0
+    ],
+    "id": 209659,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Dreamleaf",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124102,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      128304,
+      0,
+      0
+    ],
+    "id": 209660,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Foxflower",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124103,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      129032,
+      0,
+      0
+    ],
+    "id": 209661,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Fjarnskaggl",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124104,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      129032,
+      0,
+      0
+    ],
+    "id": 209662,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Starlight Rose",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124105,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      129034,
+      0,
+      0
+    ],
+    "id": 209664,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Felwort",
+    "nskillup": 1,
+    "reagents": [
+      [
+        124106,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "creates": [
+      129032,
+      0,
+      0
+    ],
+    "id": 210116,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Mass Mill Yseralline Seeds",
+    "nskillup": 1,
+    "reagents": [
+      [
+        128304,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      700,
+      730,
+      750,
+      770
+    ],
+    "creates": [
+      136852,
+      0,
+      0
+    ],
+    "id": 210653,
+    "learnedat": 700,
+    "level": 0,
+    "name": "6Songs of Battle",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 375500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      700,
+      730,
+      750,
+      770
+    ],
+    "creates": [
+      136856,
+      0,
+      0
+    ],
+    "id": 210654,
+    "learnedat": 700,
+    "level": 0,
+    "name": "6Songs of Peace",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 375500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      800
+    ],
+    "creates": [
+      136857,
+      0,
+      0
+    ],
+    "id": 210656,
+    "learnedat": 800,
+    "level": 0,
+    "name": "6Songs of the Legion",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 375500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      730,
+      760
+    ],
+    "creates": [
+      128979,
+      0,
+      0
+    ],
+    "id": 222408,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Unwritten Legend",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        50
+      ],
+      [
+        129034,
+        24
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      700,
+      730,
+      750,
+      770
+    ],
+    "creates": [
+      140567,
+      0,
+      0
+    ],
+    "id": 223940,
+    "learnedat": 700,
+    "level": 0,
+    "name": "6Songs of the Horde",
+    "nskillup": 1,
+    "races": [
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      26
+    ],
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129032,
+        100
+      ]
+    ],
+    "reqrace": 33555378,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 375500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      700,
+      730,
+      750,
+      770
+    ],
+    "creates": [
+      140568,
+      0,
+      0
+    ],
+    "id": 223941,
+    "learnedat": 700,
+    "level": 0,
+    "name": "6Songs of the Alliance",
+    "nskillup": 1,
+    "races": [
+      1,
+      3,
+      4,
+      7,
+      11,
+      22,
+      25
+    ],
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129032,
+        100
+      ]
+    ],
+    "reqrace": 18875469,
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 375500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137274,
+      0,
+      0
+    ],
+    "id": 225522,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Cracked Ice",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139272,
+      0,
+      0
+    ],
+    "id": 225523,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Blood Wraith",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139271,
+      0,
+      0
+    ],
+    "id": 225524,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Chilled Shell",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139270,
+      0,
+      0
+    ],
+    "id": 225525,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Crimson Shell",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139273,
+      0,
+      0
+    ],
+    "id": 225526,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Unholy Wraith",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139435,
+      0,
+      0
+    ],
+    "id": 225527,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Fel Wings",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139437,
+      0,
+      0
+    ],
+    "id": 225528,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Fel-Enemies",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139362,
+      0,
+      0
+    ],
+    "id": 225529,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Mana Touched Souls",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139438,
+      0,
+      0
+    ],
+    "id": 225530,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Shadow-Enemies",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        12
+      ],
+      [
+        129032,
+        20
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      140630,
+      0,
+      0
+    ],
+    "id": 225531,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Doe",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      136825,
+      0,
+      0
+    ],
+    "id": 225532,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Feral Chameleon",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139278,
+      0,
+      0
+    ],
+    "id": 225533,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Forest Path",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      136826,
+      0,
+      0
+    ],
+    "id": 225534,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Autmnal Bloom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137249,
+      0,
+      0
+    ],
+    "id": 225535,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Arachnophobia",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137250,
+      0,
+      0
+    ],
+    "id": 225536,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Nesingwary's Nemeses",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137194,
+      0,
+      0
+    ],
+    "id": 225537,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Bullseye",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139288,
+      0,
+      0
+    ],
+    "id": 225538,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Dire Stable",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137267,
+      0,
+      0
+    ],
+    "id": 225539,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Goblin Anti-Grav Flare",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137240,
+      0,
+      0
+    ],
+    "id": 225540,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Headhunter",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137239,
+      0,
+      0
+    ],
+    "id": 225541,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Hook",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137261,
+      0,
+      0
+    ],
+    "id": 225542,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Skullseye",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137238,
+      0,
+      0
+    ],
+    "id": 225543,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Trident",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139352,
+      0,
+      0
+    ],
+    "id": 225545,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Polymorphic Proportions",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139348,
+      0,
+      0
+    ],
+    "id": 225546,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Smolder",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139339,
+      0,
+      0
+    ],
+    "id": 225547,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Yu'lon's Grace",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139442,
+      0,
+      0
+    ],
+    "id": 225548,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Burnout",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129020,
+      0,
+      0
+    ],
+    "id": 225549,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Flash Bang",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        30
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139289,
+      0,
+      0
+    ],
+    "id": 225550,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Critterhex",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137289,
+      0,
+      0
+    ],
+    "id": 225551,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Flickering",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137288,
+      0,
+      0
+    ],
+    "id": 225552,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Pebbles",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      700,
+      725,
+      750
+    ],
+    "id": 225553,
+    "learnedat": 700,
+    "level": 0,
+    "name": "@Glyph of the Abyssal",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137191,
+      0,
+      0
+    ],
+    "id": 225554,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Inquisitor's Eye",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        15
+      ],
+      [
+        129032,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139312,
+      0,
+      0
+    ],
+    "id": 225555,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Observer",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        15
+      ],
+      [
+        129032,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139310,
+      0,
+      0
+    ],
+    "id": 225556,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Shivarra",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        15
+      ],
+      [
+        129032,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "id": 225557,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Glyph of the Terrorguard",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      139311,
+      0,
+      0
+    ],
+    "id": 225558,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Voidlord",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        15
+      ],
+      [
+        129032,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      137188,
+      0,
+      0
+    ],
+    "id": 225560,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Blazing Savior",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      735,
+      770
+    ],
+    "creates": [
+      141333,
+      0,
+      0
+    ],
+    "id": 226248,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Codex of the Tranquil Mind",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        200
+      ],
+      [
+        129034,
+        10
+      ],
+      [
+        129032,
+        100
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      720,
+      740
+    ],
+    "creates": [
+      141446,
+      0,
+      0
+    ],
+    "id": 227043,
+    "learnedat": 1,
+    "level": 0,
+    "name": "6Tome of the Tranquil Mind",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        20
+      ],
+      [
+        129034,
+        1
+      ],
+      [
+        129032,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      735,
+      770
+    ],
+    "creates": [
+      141333,
+      0,
+      0
+    ],
+    "id": 227239,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Codex of the Tranquil Mind",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        200
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        80
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      735,
+      770
+    ],
+    "creates": [
+      141333,
+      0,
+      0
+    ],
+    "id": 227240,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Codex of the Tranquil Mind",
+    "nskillup": 2,
+    "reagents": [
+      [
+        39354,
+        200
+      ],
+      [
+        129034,
+        6
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      620,
+      640
+    ],
+    "creates": [
+      141640,
+      0,
+      0
+    ],
+    "id": 227561,
+    "learnedat": 1,
+    "level": 0,
+    "name": "6Tome of the Clear Mind",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        20
+      ],
+      [
+        113111,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      600,
+      635,
+      670
+    ],
+    "creates": [
+      141641,
+      0,
+      0
+    ],
+    "id": 227562,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Codex of the Clear Mind",
+    "nskillup": 5,
+    "reagents": [
+      [
+        39354,
+        200
+      ],
+      [
+        113111,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      141898,
+      0,
+      0
+    ],
+    "id": 228381,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Falling Thunder",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        8
+      ],
+      [
+        129032,
+        40
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142101,
+      0,
+      0
+    ],
+    "id": 229177,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Odyn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142102,
+      0,
+      0
+    ],
+    "id": 229178,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Guarm",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142103,
+      0,
+      0
+    ],
+    "id": 229179,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Helya",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142101,
+      0,
+      0
+    ],
+    "id": 229180,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Odyn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142102,
+      0,
+      0
+    ],
+    "id": 229181,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Guarm",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142103,
+      0,
+      0
+    ],
+    "id": 229182,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Helya",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      142101,
+      0,
+      0
+    ],
+    "id": 229183,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Odyn",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      142102,
+      0,
+      0
+    ],
+    "id": 229184,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Guarm",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      760,
+      770,
+      780
+    ],
+    "creates": [
+      142103,
+      0,
+      0
+    ],
+    "id": 229185,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Vantus Rune: Helya",
+    "nskillup": 1,
+    "reagents": [
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        50
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      129022,
+      0,
+      0
+    ],
+    "id": 232274,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Crackling Ox Lightning",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      143588,
+      0,
+      0
+    ],
+    "id": 232275,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of the Trusted Steed",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        2
+      ],
+      [
+        129032,
+        70
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      300,
+      450,
+      600
+    ],
+    "creates": [
+      143750,
+      0,
+      0
+    ],
+    "id": 233278,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Glyph of Twilight Bloom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        39354,
+        1
+      ],
+      [
+        129034,
+        4
+      ],
+      [
+        129032,
+        60
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      773
+    ]
+  }
+]
