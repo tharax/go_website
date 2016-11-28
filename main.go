@@ -29,8 +29,7 @@ func main() {
 }
 
 func getHandler(w http.ResponseWriter, r *http.Request) {
-	host, port, _ := net.SplitHostPort(r.Host)
-	fmt.Fprintf(w, "Hello from %s on port %s", host, port)
+	fmt.Fprintf(w, "Hello from %s ", r.URL.Host)
 	// if r.Host == "peterrosser.com" {
 	// 	http.FileServer(http.Dir("./peterrosser"))
 	// } else if r.Host == "thefirsttrust.org" {
