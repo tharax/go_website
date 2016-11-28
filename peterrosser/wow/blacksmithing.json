@@ -1,4 +1,4 @@
-[
+var blacksmithing = [
   {
     "cat": 11,
     "colors": [
@@ -33627,4 +33627,4 @@
     ],
     "specialization": 33391
   }
-]
+];
