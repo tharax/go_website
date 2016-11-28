@@ -1,8 +1,10 @@
 package main
 
+import "net"
 import "net/http"
 import "crypto/tls"
 import "log"
+import "fmt"
 
 func main() {
 
@@ -27,18 +29,19 @@ func main() {
 }
 
 func getHandler(w http.ResponseWriter, r *http.Request) {
-
-	if r.Host == "peterrosser.com" {
-		http.FileServer(http.Dir("./peterrosser"))
-	} else if r.Host == "thefirsttrust.org" {
-		http.FileServer(http.Dir("./thefirsttrust"))
-	} else if r.Host == "rosser.software" {
-		http.FileServer(http.Dir("./rossersoftware"))
-	} else if r.Host == "rossersoftware.com" {
-		http.FileServer(http.Dir("./rossersoftware"))
-	} else {
-		http.NotFoundHandler()
-	}
+	host, port, _ := net.SplitHostPort(r.Host)
+	fmt.Fprintf(w, "Hello from %s on port %s", host, port)
+	// if r.Host == "peterrosser.com" {
+	// 	http.FileServer(http.Dir("./peterrosser"))
+	// } else if r.Host == "thefirsttrust.org" {
+	// 	http.FileServer(http.Dir("./thefirsttrust"))
+	// } else if r.Host == "rosser.software" {
+	// 	http.FileServer(http.Dir("./rossersoftware"))
+	// } else if r.Host == "rossersoftware.com" {
+	// 	http.FileServer(http.Dir("./rossersoftware"))
+	// } else {
+	// 	http.NotFoundHandler()
+	// }
 }
 
 func getCert(website string) (cert tls.Certificate) {
