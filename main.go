@@ -26,8 +26,8 @@ func main() {
 
 }
 
-func getCert(website string) (cert Certificate) {
-	cert, err = tls.LoadX509KeyPair("/etc/letsencrypt/live/"+website+"/cert.pem", "/etc/letsencrypt/live/"+website+"/privkey.pem")
+func getCert(website string) (cert tls.Certificate) {
+	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+website+"/cert.pem", "/etc/letsencrypt/live/"+website+"/privkey.pem")
 	if err != nil {
 		log.Fatal(err)
 	}
