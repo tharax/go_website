@@ -1,0 +1,66 @@
+<head />
+<body onload="tableCreate()" />
+
+<script type="text/javascript" src="alchemy.json"></script>
+<script type="text/javascript" src="blacksmithing.json"></script>
+<script type="text/javascript" src="enchanting.json"></script>
+<script type="text/javascript" src="engineering.json"></script>
+<script type="text/javascript" src="herbalism.json"></script>
+<script type="text/javascript" src="inscription.json"></script>
+<script type="text/javascript" src="jewelcrafting.json"></script>
+<script type="text/javascript" src="leatherworking.json"></script>
+<script type="text/javascript" src="mining.json"></script>
+<script type="text/javascript" src="skinning.json"></script>
+<script type="text/javascript" src="tailoring.json"></script>
+
+<script type="text/javascript" src="archaeology.json"></script>
+<script type="text/javascript" src="cooking.json"></script>
+<script type="text/javascript" src="firstaid.json"></script>
+
+<script>
+function tableCreate() {
+  tableCreateTab(alchemy);
+  tableCreateTab(blacksmithing);
+  tableCreateTab(enchanting);
+  tableCreateTab(engineering);
+  tableCreateTab(herbalism);
+  tableCreateTab(inscription);
+  tableCreateTab(jewelcrafting);
+  tableCreateTab(leatherworking);
+  tableCreateTab(mining);
+  tableCreateTab(skinning);
+  tableCreateTab(tailoring);
+
+  tableCreateTab(archaeology);
+  tableCreateTab(cooking);
+  tableCreateTab(firstaid);
+}
+
+	function tableCreateTab(obj) {
+    var body = document.getElementsByTagName('body')[0];
+    var table = document.createElement('table');
+    var tr = document.createElement('tr');
+    var recipe =  obj[0];
+    for (var key in recipe) {
+      var value = key;
+      var td = document.createElement('td');
+      td.appendChild(document.createTextNode(value));
+      tr.appendChild(td);
+    }
+    table.appendChild(tr);
+    for (var i = 0; i < obj.length; i++) {
+        var tr = document.createElement('tr');
+
+        var recipe = obj[i];
+        for (var key in recipe) {
+          var value = recipe[key];
+        	var td = document.createElement('td');
+	        td.appendChild(document.createTextNode(value));
+	        tr.appendChild(td);
+        }
+
+        table.appendChild(tr);
+    }
+    body.appendChild(table);
+}
+</script>

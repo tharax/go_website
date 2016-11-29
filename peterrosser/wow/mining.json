@@ -1,0 +1,1735 @@
+var mining = [
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 2575,
+    "learnedat": 0,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      50
+    ],
+    "id": 2576,
+    "learnedat": 50,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 2580,
+    "learnedat": 0,
+    "level": 1,
+    "name": "@Find Minerals",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 2656,
+    "learnedat": 0,
+    "level": 0,
+    "name": "@Mining Skills",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      20,
+      40,
+      60
+    ],
+    "creates": [
+      2840,
+      1,
+      1
+    ],
+    "id": 2657,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Smelt Copper",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2770,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      10
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      65,
+      100,
+      105,
+      110
+    ],
+    "creates": [
+      2842,
+      1,
+      1
+    ],
+    "id": 2658,
+    "learnedat": 65,
+    "level": 0,
+    "name": "6Smelt Silver",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2775,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200
+  },
+  {
+    "cat": 11,
+    "colors": [
+      50,
+      50,
+      75,
+      100
+    ],
+    "creates": [
+      2841,
+      2,
+      2
+    ],
+    "id": 2659,
+    "learnedat": 50,
+    "level": 0,
+    "name": "7Smelt Bronze",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2840,
+        1
+      ],
+      [
+        3576,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      50,
+      57,
+      75
+    ],
+    "creates": [
+      3576,
+      1,
+      1
+    ],
+    "id": 3304,
+    "learnedat": 50,
+    "level": 0,
+    "name": "7Smelt Tin",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2771,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50
+  },
+  {
+    "cat": 11,
+    "colors": [
+      100,
+      100,
+      125,
+      150
+    ],
+    "creates": [
+      3575,
+      1,
+      1
+    ],
+    "id": 3307,
+    "learnedat": 100,
+    "level": 0,
+    "name": "7Smelt Iron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2772,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 11,
+    "colors": [
+      115,
+      150,
+      155,
+      160
+    ],
+    "creates": [
+      3577,
+      1,
+      1
+    ],
+    "id": 3308,
+    "learnedat": 115,
+    "level": 0,
+    "name": "6Smelt Gold",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2776,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 600
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      125
+    ],
+    "id": 3564,
+    "learnedat": 125,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 5000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      125,
+      125,
+      130,
+      135
+    ],
+    "creates": [
+      3859,
+      1,
+      1
+    ],
+    "id": 3569,
+    "learnedat": 125,
+    "level": 0,
+    "name": "7Smelt Steel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        3575,
+        1
+      ],
+      [
+        3857,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 750
+  },
+  {
+    "cat": 11,
+    "colors": [
+      150,
+      150,
+      175,
+      200
+    ],
+    "creates": [
+      3860,
+      1,
+      1
+    ],
+    "id": 10097,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Smelt Mithril",
+    "nskillup": 1,
+    "reagents": [
+      [
+        3858,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 5000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      165,
+      200,
+      205,
+      210
+    ],
+    "creates": [
+      6037,
+      1,
+      1
+    ],
+    "id": 10098,
+    "learnedat": 165,
+    "level": 0,
+    "name": "6Smelt Truesilver",
+    "nskillup": 1,
+    "reagents": [
+      [
+        7911,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      200
+    ],
+    "id": 10248,
+    "learnedat": 200,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      230,
+      300,
+      305,
+      310
+    ],
+    "creates": [
+      11371,
+      1,
+      1
+    ],
+    "id": 14891,
+    "learnedat": 230,
+    "level": 0,
+    "name": "7Smelt Dark Iron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        11370,
+        8
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      230,
+      245,
+      290
+    ],
+    "creates": [
+      12359,
+      1,
+      1
+    ],
+    "id": 16153,
+    "learnedat": 230,
+    "level": 0,
+    "name": "7Smelt Thorium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        10620,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      300,
+      350,
+      362,
+      375
+    ],
+    "creates": [
+      17771,
+      1,
+      1
+    ],
+    "id": 22967,
+    "learnedat": 300,
+    "level": 0,
+    "name": "3Smelt Enchanted Elementium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        18562,
+        1
+      ],
+      [
+        12360,
+        10
+      ],
+      [
+        17010,
+        1
+      ],
+      [
+        18567,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      275
+    ],
+    "id": 29354,
+    "learnedat": 275,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      275,
+      275,
+      300,
+      325
+    ],
+    "creates": [
+      23445,
+      1,
+      1
+    ],
+    "id": 29356,
+    "learnedat": 275,
+    "level": 0,
+    "name": "7Smelt Fel Iron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23424,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      325,
+      325,
+      332,
+      340
+    ],
+    "creates": [
+      23446,
+      1,
+      1
+    ],
+    "id": 29358,
+    "learnedat": 325,
+    "level": 0,
+    "name": "7Smelt Adamantite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23425,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      350,
+      357,
+      365
+    ],
+    "creates": [
+      23447,
+      1,
+      1
+    ],
+    "id": 29359,
+    "learnedat": 350,
+    "level": 0,
+    "name": "6Smelt Eternium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23427,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      350,
+      357,
+      375
+    ],
+    "creates": [
+      23448,
+      1,
+      1
+    ],
+    "id": 29360,
+    "learnedat": 350,
+    "level": 0,
+    "name": "6Smelt Felsteel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23445,
+        3
+      ],
+      [
+        23447,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      375,
+      385,
+      392,
+      400
+    ],
+    "creates": [
+      23449,
+      1,
+      1
+    ],
+    "id": 29361,
+    "learnedat": 375,
+    "level": 0,
+    "name": "6Smelt Khorium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23426,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      375,
+      385,
+      392,
+      400
+    ],
+    "creates": [
+      23573,
+      1,
+      1
+    ],
+    "id": 29686,
+    "learnedat": 375,
+    "level": 0,
+    "name": "7Smelt Hardened Adamantite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23446,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      300,
+      300,
+      300,
+      300
+    ],
+    "creates": [
+      22573,
+      10,
+      10
+    ],
+    "id": 35750,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Earth Shatter",
+    "nskillup": 1,
+    "reagents": [
+      [
+        22452,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      300,
+      300,
+      300,
+      300
+    ],
+    "creates": [
+      22574,
+      10,
+      10
+    ],
+    "id": 35751,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Fire Sunder",
+    "nskillup": 1,
+    "reagents": [
+      [
+        21884,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      375,
+      375,
+      375,
+      375
+    ],
+    "creates": [
+      35128,
+      1,
+      1
+    ],
+    "id": 46353,
+    "learnedat": 375,
+    "level": 0,
+    "name": "6Smelt Hardened Khorium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        23449,
+        3
+      ],
+      [
+        23573,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      350,
+      350,
+      362,
+      375
+    ],
+    "creates": [
+      36916,
+      1,
+      1
+    ],
+    "id": 49252,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Smelt Cobalt",
+    "nskillup": 1,
+    "reagents": [
+      [
+        36909,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      400,
+      400,
+      412,
+      425
+    ],
+    "creates": [
+      36913,
+      1,
+      1
+    ],
+    "id": 49258,
+    "learnedat": 400,
+    "level": 0,
+    "name": "7Smelt Saronite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        36912,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      350
+    ],
+    "id": 50310,
+    "learnedat": 350,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 350000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      450,
+      450,
+      450,
+      450
+    ],
+    "creates": [
+      37663,
+      1,
+      1
+    ],
+    "id": 55208,
+    "learnedat": 450,
+    "level": 0,
+    "name": "6Smelt Titansteel",
+    "nskillup": 1,
+    "reagents": [
+      [
+        41163,
+        3
+      ],
+      [
+        36860,
+        1
+      ],
+      [
+        35624,
+        1
+      ],
+      [
+        35627,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      450,
+      450,
+      450,
+      450
+    ],
+    "creates": [
+      41163,
+      1,
+      1
+    ],
+    "id": 55211,
+    "learnedat": 450,
+    "level": 0,
+    "name": "6Smelt Titanium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        36910,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 200000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      250,
+      250,
+      270,
+      290
+    ],
+    "creates": [
+      12655,
+      1,
+      1
+    ],
+    "id": 70524,
+    "learnedat": 250,
+    "level": 0,
+    "name": "7Enchanted Thorium Bar",
+    "nskillup": 1,
+    "reagents": [
+      [
+        12359,
+        1
+      ],
+      [
+        11176,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      425
+    ],
+    "id": 74517,
+    "learnedat": 425,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      525,
+      525,
+      525,
+      525
+    ],
+    "creates": [
+      51950,
+      1,
+      1
+    ],
+    "id": 74529,
+    "learnedat": 525,
+    "level": 0,
+    "name": "6Smelt Pyrite",
+    "nskillup": 1,
+    "reagents": [
+      [
+        52183,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      475,
+      475,
+      500
+    ],
+    "creates": [
+      52186,
+      1,
+      1
+    ],
+    "id": 74530,
+    "learnedat": 475,
+    "level": 0,
+    "name": "7Smelt Elementium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        52185,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      500,
+      500,
+      525
+    ],
+    "creates": [
+      53039,
+      1,
+      1
+    ],
+    "id": 74537,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Smelt Hardened Elementium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        52186,
+        10
+      ],
+      [
+        52327,
+        4
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      425,
+      437,
+      475
+    ],
+    "creates": [
+      54849,
+      1,
+      1
+    ],
+    "id": 84038,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Smelt Obsidium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        53038,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 50000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      0,
+      0,
+      500
+    ],
+    "id": 102161,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 600000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      500,
+      500,
+      525
+    ],
+    "creates": [
+      72096,
+      1,
+      1
+    ],
+    "id": 102165,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Smelt Ghost Iron",
+    "nskillup": 1,
+    "reagents": [
+      [
+        72092,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      600,
+      600,
+      600,
+      600
+    ],
+    "creates": [
+      72095,
+      1,
+      1
+    ],
+    "id": 102167,
+    "learnedat": 600,
+    "level": 0,
+    "name": "6Smelt Trillium",
+    "nskillup": 1,
+    "reagents": [
+      [
+        72094,
+        2
+      ],
+      [
+        72103,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      186
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "id": 158754,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184454,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184456,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184457,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184484,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184485,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184486,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Leystone Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184488,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Leystone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184489,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Leystone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184490,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Leystone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184492,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184493,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184494,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Deposit",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184496,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184497,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184498,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Felslate Seam",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184500,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Felslate",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184501,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Felslate",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184502,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Living Felslate",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184504,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Infernal Brimstone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      1,
+      700,
+      700,
+      700
+    ],
+    "id": 184505,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Infernal Brimstone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      700,
+      700,
+      700
+    ],
+    "id": 191970,
+    "learnedat": 700,
+    "level": 0,
+    "name": "@Infernal Brimstone",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  },
+  {
+    "cat": 11,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "id": 195122,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Mining",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      186
+    ]
+  }
+];

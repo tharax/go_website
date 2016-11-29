@@ -1,0 +1,1362 @@
+var firstaid = [
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 3273,
+    "learnedat": 0,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      50
+    ],
+    "id": 3274,
+    "learnedat": 50,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 500
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      40,
+      50,
+      60
+    ],
+    "creates": [
+      1251,
+      1,
+      1
+    ],
+    "id": 3275,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Linen Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2589,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      40,
+      80,
+      90,
+      100
+    ],
+    "creates": [
+      2581,
+      1,
+      1
+    ],
+    "id": 3276,
+    "learnedat": 40,
+    "level": 0,
+    "name": "7Heavy Linen Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2589,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100
+  },
+  {
+    "cat": 9,
+    "colors": [
+      80,
+      115,
+      132,
+      150
+    ],
+    "creates": [
+      3530,
+      1,
+      1
+    ],
+    "id": 3277,
+    "learnedat": 80,
+    "level": 0,
+    "name": "7Wool Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        2592,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 250
+  },
+  {
+    "cat": 9,
+    "colors": [
+      115,
+      150,
+      167,
+      185
+    ],
+    "creates": [
+      3531,
+      1,
+      1
+    ],
+    "id": 3278,
+    "learnedat": 115,
+    "level": 0,
+    "name": "7Heavy Wool Bandage",
+    "nskillup": 2,
+    "reagents": [
+      [
+        2592,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 1000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      125
+    ],
+    "id": 7924,
+    "learnedat": 125,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 1000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      150,
+      180,
+      195,
+      210
+    ],
+    "creates": [
+      6450,
+      1,
+      1
+    ],
+    "id": 7928,
+    "learnedat": 150,
+    "level": 0,
+    "name": "7Silk Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        4306,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 5000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      180,
+      210,
+      225,
+      240
+    ],
+    "creates": [
+      6451,
+      1,
+      1
+    ],
+    "id": 7929,
+    "learnedat": 180,
+    "level": 0,
+    "name": "7Heavy Silk Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        4306,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 5000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      80,
+      80,
+      115,
+      150
+    ],
+    "creates": [
+      6452,
+      3,
+      3
+    ],
+    "id": 7934,
+    "learnedat": 80,
+    "level": 0,
+    "name": "7Anti-Venom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        1475,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 250
+  },
+  {
+    "cat": 9,
+    "colors": [
+      130,
+      130,
+      165,
+      200
+    ],
+    "creates": [
+      6453,
+      3,
+      3
+    ],
+    "id": 7935,
+    "learnedat": 130,
+    "level": 0,
+    "name": "7Strong Anti-Venom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        1288,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      2
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      210,
+      240,
+      245,
+      250
+    ],
+    "creates": [
+      8544,
+      1,
+      1
+    ],
+    "id": 10840,
+    "learnedat": 210,
+    "level": 0,
+    "name": "7Mageweave Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        4338,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      240,
+      260,
+      267,
+      275
+    ],
+    "creates": [
+      8545,
+      1,
+      1
+    ],
+    "id": 10841,
+    "learnedat": 240,
+    "level": 0,
+    "name": "7Heavy Mageweave Bandage",
+    "nskillup": 2,
+    "reagents": [
+      [
+        4338,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 10000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      225
+    ],
+    "id": 10846,
+    "learnedat": 225,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 25000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      260,
+      290,
+      305,
+      320
+    ],
+    "creates": [
+      14529,
+      1,
+      1
+    ],
+    "id": 18629,
+    "learnedat": 260,
+    "level": 0,
+    "name": "7Runecloth Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        14047,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      290,
+      300,
+      325,
+      350
+    ],
+    "creates": [
+      14530,
+      1,
+      1
+    ],
+    "id": 18630,
+    "learnedat": 290,
+    "level": 0,
+    "name": "7Heavy Runecloth Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        14047,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      300,
+      300,
+      330,
+      360
+    ],
+    "creates": [
+      19440,
+      1,
+      1
+    ],
+    "id": 23787,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Powerful Anti-Venom",
+    "nskillup": 1,
+    "reagents": [
+      [
+        19441,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      5
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      275
+    ],
+    "id": 27028,
+    "learnedat": 275,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 100000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      300,
+      330,
+      347,
+      365
+    ],
+    "creates": [
+      21990,
+      1,
+      1
+    ],
+    "id": 27032,
+    "learnedat": 300,
+    "level": 0,
+    "name": "7Netherweave Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        21877,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 20000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      330,
+      350,
+      362,
+      375
+    ],
+    "creates": [
+      21991,
+      1,
+      1
+    ],
+    "id": 27033,
+    "learnedat": 330,
+    "level": 0,
+    "name": "7Heavy Netherweave Bandage",
+    "nskillup": 2,
+    "reagents": [
+      [
+        21877,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      350
+    ],
+    "id": 45542,
+    "learnedat": 350,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      350,
+      390,
+      400,
+      410
+    ],
+    "creates": [
+      34721,
+      1,
+      1
+    ],
+    "id": 45545,
+    "learnedat": 350,
+    "level": 0,
+    "name": "7Frostweave Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        33470,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 40000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      390,
+      425,
+      447,
+      470
+    ],
+    "creates": [
+      34722,
+      1,
+      1
+    ],
+    "id": 45546,
+    "learnedat": 390,
+    "level": 0,
+    "name": "7Heavy Frostweave Bandage",
+    "nskillup": 2,
+    "reagents": [
+      [
+        33470,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      2,
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      425,
+      475,
+      480,
+      485
+    ],
+    "creates": [
+      53049,
+      1,
+      1
+    ],
+    "id": 74556,
+    "learnedat": 425,
+    "level": 0,
+    "name": "7Embersilk Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        53010,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 60000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      475,
+      500,
+      517,
+      535
+    ],
+    "creates": [
+      53050,
+      1,
+      1
+    ],
+    "id": 74557,
+    "learnedat": 475,
+    "level": 0,
+    "name": "7Heavy Embersilk Bandage",
+    "nskillup": 2,
+    "reagents": [
+      [
+        53010,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      525,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      53051,
+      1,
+      1
+    ],
+    "id": 74558,
+    "learnedat": 525,
+    "level": 0,
+    "name": "7Field Bandage: Dense Embersilk",
+    "nskillup": 1,
+    "reagents": [
+      [
+        53050,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 15000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      425
+    ],
+    "id": 74559,
+    "learnedat": 425,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 250000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      525,
+      525,
+      530,
+      535
+    ],
+    "creates": [
+      53051,
+      1,
+      1
+    ],
+    "id": 88893,
+    "learnedat": 525,
+    "level": 0,
+    "name": "7Dense Embersilk Bandage",
+    "nskillup": 2,
+    "rank": "Upgrade",
+    "reagents": [
+      [
+        53010,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 80000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      500,
+      550,
+      555,
+      560
+    ],
+    "creates": [
+      72985,
+      1,
+      1
+    ],
+    "id": 102697,
+    "learnedat": 500,
+    "level": 0,
+    "name": "7Windwool Bandage",
+    "nskillup": 1,
+    "reagents": [
+      [
+        72988,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 90000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      550,
+      600,
+      605,
+      610
+    ],
+    "creates": [
+      72986,
+      1,
+      1
+    ],
+    "id": 102698,
+    "learnedat": 550,
+    "level": 0,
+    "name": "7Heavy Windwool Bandage",
+    "nskillup": 2,
+    "rank": "Rank 1",
+    "reagents": [
+      [
+        72988,
+        2
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 110000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      0,
+      500
+    ],
+    "id": 110406,
+    "learnedat": 500,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 300000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "id": 158741,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      600,
+      625,
+      650
+    ],
+    "creates": [
+      111603,
+      1,
+      1
+    ],
+    "id": 172539,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Antiseptic Bandage",
+    "nskillup": 5,
+    "reagents": [
+      [
+        111557,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      700,
+      725,
+      750
+    ],
+    "creates": [
+      109223,
+      1,
+      1
+    ],
+    "id": 172540,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Healing Tonic",
+    "nskillup": 5,
+    "reagents": [
+      [
+        109142,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      650,
+      675,
+      700
+    ],
+    "creates": [
+      116979,
+      1,
+      1
+    ],
+    "id": 172541,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Blackwater Anti-Venom",
+    "nskillup": 5,
+    "reagents": [
+      [
+        109144,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      675,
+      700,
+      725
+    ],
+    "creates": [
+      116981,
+      1,
+      1
+    ],
+    "id": 172542,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Fire Ammonite Oil",
+    "nskillup": 5,
+    "reagents": [
+      [
+        109141,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      7
+    ]
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "id": 195113,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@First Aid",
+    "nskillup": 1,
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      710,
+      720,
+      730
+    ],
+    "creates": [
+      133940,
+      1,
+      1
+    ],
+    "id": 202853,
+    "learnedat": 1,
+    "level": 0,
+    "name": "7Silkweave Bandage",
+    "nskillup": 1,
+    "rank": "Rank 1",
+    "reagents": [
+      [
+        124437,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      760,
+      770,
+      780,
+      790
+    ],
+    "creates": [
+      133942,
+      1,
+      1
+    ],
+    "id": 202854,
+    "learnedat": 760,
+    "level": 0,
+    "name": "7Silkweave Splint",
+    "nskillup": 1,
+    "rank": "Rank 1",
+    "reagents": [
+      [
+        124437,
+        5
+      ],
+      [
+        123918,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 170000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      1,
+      700,
+      750,
+      800
+    ],
+    "id": 211353,
+    "learnedat": 1,
+    "level": 0,
+    "name": "@Treat Fever",
+    "nskillup": 1,
+    "reagents": [
+      [
+        136654,
+        3
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      730,
+      750,
+      800
+    ],
+    "id": 211696,
+    "learnedat": 730,
+    "level": 0,
+    "name": "@Stabilize",
+    "nskillup": 1,
+    "reagents": [
+      [
+        133940,
+        3
+      ],
+      [
+        136654,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      0,
+      800,
+      800
+    ],
+    "id": 211926,
+    "learnedat": 800,
+    "level": 0,
+    "name": "@Set Bone",
+    "nskillup": 1,
+    "reagents": [
+      [
+        133942,
+        2
+      ],
+      [
+        136654,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      750,
+      750,
+      800
+    ],
+    "id": 212067,
+    "learnedat": 750,
+    "level": 0,
+    "name": "@Treat Burns",
+    "nskillup": 1,
+    "reagents": [
+      [
+        136653,
+        3
+      ],
+      [
+        136654,
+        1
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      730,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      136653,
+      1,
+      1
+    ],
+    "id": 221690,
+    "learnedat": 730,
+    "level": 0,
+    "name": "7Silvery Salve",
+    "nskillup": 1,
+    "rank": "Rank 1",
+    "reagents": [
+      [
+        133607,
+        5
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ],
+    "source": [
+      6
+    ],
+    "trainingcost": 150000
+  },
+  {
+    "cat": 9,
+    "colors": [
+      0,
+      740,
+      750,
+      760
+    ],
+    "creates": [
+      142332,
+      1,
+      1
+    ],
+    "id": 230047,
+    "learnedat": 740,
+    "level": 0,
+    "name": "7Feathered Luffa",
+    "nskillup": 1,
+    "rank": "Rank 1",
+    "reagents": [
+      [
+        142335,
+        10
+      ]
+    ],
+    "schools": 1,
+    "skill": [
+      129
+    ]
+  }
+];
