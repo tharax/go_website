@@ -1,53 +1,42 @@
 package main
 
-import "net/http"
-import "crypto/tls"
-import "log"
-import "github.com/gorilla/mux"
+import (
+	"crypto/tls"
+	"github.com/gorilla/mux"
+	"log"
+	"net/http"
+)
 
 func main() {
 
 	// redirect every http request to https.
 	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
 
-	cfg := &tls.Config{}
-	cfg.Certificates = append(cfg.Certificates, getCert("peterrosser.com"))
-	cfg.Certificates = append(cfg.Certificates, getCert("thefirsttrust.org"))
-	cfg.Certificates = append(cfg.Certificates, getCert("rosser.software"))
-	cfg.Certificates = append(cfg.Certificates, getCert("rossersoftware.com"))
-	cfg.BuildNameToCertificate()
+	// create a list of all SSL certs.
+	config := &tls.Config{}
+	config.Certificates = append(config.Certificates, getCert("peterrosser.com"))
+	config.Certificates = append(config.Certificates, getCert("thefirsttrust.org"))
+	config.Certificates = append(config.Certificates, getCert("rosser.software"))
+	config.Certificates = append(config.Certificates, getCert("rossersoftware.com"))
+	config.BuildNameToCertificate()
 
-	// mux := http.NewServeMux()
-	// mux.HandleFunc("peterrosser.com", peterRosserHandler)
-	// mux.HandleFunc("thefirsttrust.org", theFirstTrustHandler)
-	// mux.HandleFunc("rossersoftware.com", rosserSoftwareHandler)
-	// mux.HandleFunc("rosser.software", rosserSoftwareHandler)
-
+	// create different handlers for different hosts.
 	r := mux.NewRouter()
 	r.Host("peterrosser.com").Handler(http.FileServer(http.Dir("./peterrosser")))
 	r.Host("thefirsttrust.org").Handler(http.FileServer(http.Dir("./thefirsttrust")))
+	r.Host("rosser.software").Handler(http.FileServer(http.Dir("./rossersoftware")))
+	r.Host("rossersoftware.com").Handler(http.FileServer(http.Dir("./rossersoftware")))
 
+	// create the server.
 	server := http.Server{
 		Addr:      ":443",
 		Handler:   r,
-		TLSConfig: cfg,
+		TLSConfig: config,
 	}
 
 	server.ListenAndServeTLS("", "")
 
 }
-
-// func peterRosserHandler(w http.ResponseWriter, r *http.Request) {
-// 	w = http.FileServer(http.Dir("./peterrosser"))
-// }
-
-// func theFirstTrustHandler(w http.ResponseWriter, r *http.Request) {
-// 	w = http.FileServer(http.Dir("./thefirsttrust"))
-// }
-
-// func rosserSoftwareHandler(w http.ResponseWriter, r *http.Request) {
-// 	w = http.FileServer(http.Dir("./rossersoftware"))
-// }
 
 func getCert(website string) (cert tls.Certificate) {
 	cert, err := tls.LoadX509KeyPair("/etc/letsencrypt/live/"+website+"/cert.pem", "/etc/letsencrypt/live/"+website+"/privkey.pem")
