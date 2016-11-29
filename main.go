@@ -3,7 +3,6 @@ package main
 import "net/http"
 import "crypto/tls"
 import "log"
-import "fmt"
 
 func main() {
 
@@ -17,9 +16,15 @@ func main() {
 	cfg.Certificates = append(cfg.Certificates, getCert("rossersoftware.com"))
 	cfg.BuildNameToCertificate()
 
+	mux := http.NewServeMux()
+	mux.HandleFunc("peterrosser.com", peterRosserHandler)
+	mux.HandleFunc("thefirsttrust.org", theFirstTrustHandler)
+	mux.HandleFunc("rossersoftware.com", rosserSoftwareHandler)
+	mux.HandleFunc("rosser.software", rosserSoftwareHandler)
+
 	server := http.Server{
 		Addr:      ":443",
-		Handler:   http.HandlerFunc(getHandler),
+		Handler:   mux,
 		TLSConfig: cfg,
 	}
 
@@ -27,19 +32,16 @@ func main() {
 
 }
 
-func getHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello from %s ", r.URL.Host)
-	// if r.Host == "peterrosser.com" {
-	// 	http.FileServer(http.Dir("./peterrosser"))
-	// } else if r.Host == "thefirsttrust.org" {
-	// 	http.FileServer(http.Dir("./thefirsttrust"))
-	// } else if r.Host == "rosser.software" {
-	// 	http.FileServer(http.Dir("./rossersoftware"))
-	// } else if r.Host == "rossersoftware.com" {
-	// 	http.FileServer(http.Dir("./rossersoftware"))
-	// } else {
-	// 	http.NotFoundHandler()
-	// }
+func peterRosserHandler(w http.ResponseWriter, r *http.Request) {
+	http.FileServer(http.Dir("./peterrosser"))
+}
+
+func theFirstTrustHandler(w http.ResponseWriter, r *http.Request) {
+	http.FileServer(http.Dir("./thefirsttrust"))
+}
+
+func rosserSoftwareHandler(w http.ResponseWriter, r *http.Request) {
+	http.FileServer(http.Dir("./rossersoftware"))
 }
 
 func getCert(website string) (cert tls.Certificate) {
