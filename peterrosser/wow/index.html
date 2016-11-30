@@ -1,66 +1,104 @@
-<head />
-<body onload="tableCreate()" />
+<head>
+</head>
 
-<script type="text/javascript" src="alchemy.json"></script>
-<script type="text/javascript" src="blacksmithing.json"></script>
-<script type="text/javascript" src="enchanting.json"></script>
-<script type="text/javascript" src="engineering.json"></script>
-<script type="text/javascript" src="herbalism.json"></script>
-<script type="text/javascript" src="inscription.json"></script>
-<script type="text/javascript" src="jewelcrafting.json"></script>
-<script type="text/javascript" src="leatherworking.json"></script>
-<script type="text/javascript" src="mining.json"></script>
-<script type="text/javascript" src="skinning.json"></script>
-<script type="text/javascript" src="tailoring.json"></script>
+<body onload='addProfessionTables()'>
+	<div id='options'>
+		<button id='button-alchemy'        onclick="toggleDiv('div-alchemy')"       >alchemy</button>
+		<button id='button-blacksmithing'  onclick="toggleDiv('div-blacksmithing')" >blacksmithing</button>
+		<button id='button-enchanting'     onclick="toggleDiv('div-enchanting')"    >enchanting</button>
+		<button id='button-engineering'    onclick="toggleDiv('div-engineering')"   >engineering</button>
+		<button id='button-herbalism'      onclick="toggleDiv('div-herbalism')"     >herbalism</button>
+		<button id='button-inscription'    onclick="toggleDiv('div-inscription')"   >inscription</button>
+		<button id='button-jewelcrafting'  onclick="toggleDiv('div-jewelcrafting')" >jewelcrafting</button>
+		<button id='button-leatherworking' onclick="toggleDiv('div-leatherworking')">leatherworking</button>
+		<button id='button-mining'         onclick="toggleDiv('div-mining')"        >mining</button>
+		<button id='button-skinning'       onclick="toggleDiv('div-skinning')"      >skinning</button>
+		<button id='button-tailoring'      onclick="toggleDiv('div-tailoring')"     >tailoring</button>
+		<button id='button-archaeology'    onclick="toggleDiv('div-archaeology')"   >archaeology</button>
+		<button id='button-cooking'        onclick="toggleDiv('div-cooking')"       >cooking</button>
+		<button id='button-firstaid'       onclick="toggleDiv('div-firstaid')"      >firstaid</button>
+	</div>
+</body>
 
-<script type="text/javascript" src="archaeology.json"></script>
-<script type="text/javascript" src="cooking.json"></script>
-<script type="text/javascript" src="firstaid.json"></script>
+<script type='text/javascript' src='alchemy.json'></script>
+<script type='text/javascript' src='blacksmithing.json'></script>
+<script type='text/javascript' src='enchanting.json'></script>
+<script type='text/javascript' src='engineering.json'></script>
+<script type='text/javascript' src='herbalism.json'></script>
+<script type='text/javascript' src='inscription.json'></script>
+<script type='text/javascript' src='jewelcrafting.json'></script>
+<script type='text/javascript' src='leatherworking.json'></script>
+<script type='text/javascript' src='mining.json'></script>
+<script type='text/javascript' src='skinning.json'></script>
+<script type='text/javascript' src='tailoring.json'></script>
+<script type='text/javascript' src='archaeology.json'></script>
+<script type='text/javascript' src='cooking.json'></script>
+<script type='text/javascript' src='firstaid.json'></script>
 
 <script>
-function tableCreate() {
-  tableCreateTab(alchemy);
-  tableCreateTab(blacksmithing);
-  tableCreateTab(enchanting);
-  tableCreateTab(engineering);
-  tableCreateTab(herbalism);
-  tableCreateTab(inscription);
-  tableCreateTab(jewelcrafting);
-  tableCreateTab(leatherworking);
-  tableCreateTab(mining);
-  tableCreateTab(skinning);
-  tableCreateTab(tailoring);
+	function addProfessionTable(obj) {
+		var body = document.getElementsByTagName('body')[0];
+		var div = document.createElement('table');
+		var table = document.createElement('table');
+		div.setAttribute('id', 'div-' + window_getVarName(obj));
+		div.setAttribute('style', 'display: none');
 
-  tableCreateTab(archaeology);
-  tableCreateTab(cooking);
-  tableCreateTab(firstaid);
-}
+		//This code sets row headers. I don't think this is tidy.
+		var tr = document.createElement('tr');
+		var recipe =  obj[0];
+		for (var key in recipe) {
+			var value = key;
+			var td = document.createElement('td');
+			td.appendChild(document.createTextNode(value));
+			tr.appendChild(td);
+		}
+		table.appendChild(tr);
 
-	function tableCreateTab(obj) {
-    var body = document.getElementsByTagName('body')[0];
-    var table = document.createElement('table');
-    var tr = document.createElement('tr');
-    var recipe =  obj[0];
-    for (var key in recipe) {
-      var value = key;
-      var td = document.createElement('td');
-      td.appendChild(document.createTextNode(value));
-      tr.appendChild(td);
-    }
-    table.appendChild(tr);
-    for (var i = 0; i < obj.length; i++) {
-        var tr = document.createElement('tr');
+		//Add each item to the table.
+		for (var i = 0; i < obj.length; i++) {
+			var tr = document.createElement('tr');
+			var recipe = obj[i];
+			for (var key in recipe) {
+				var value = recipe[key];
+				var td = document.createElement('td');
+				td.appendChild(document.createTextNode(value));
+				tr.appendChild(td);
+			}
+			table.appendChild(tr);
+		}
+		div.appendChild(table);
+		body.appendChild(div);
+	}
 
-        var recipe = obj[i];
-        for (var key in recipe) {
-          var value = recipe[key];
-        	var td = document.createElement('td');
-	        td.appendChild(document.createTextNode(value));
-	        tr.appendChild(td);
-        }
+	function addProfessionTables(){
+		addProfessionTable(alchemy);
+		addProfessionTable(blacksmithing);
+		addProfessionTable(enchanting);
+		addProfessionTable(engineering);
+		addProfessionTable(herbalism);
+		addProfessionTable(inscription);
+		addProfessionTable(jewelcrafting);
+		addProfessionTable(leatherworking);
+		addProfessionTable(mining);
+		addProfessionTable(skinning);
+		addProfessionTable(tailoring);
+		addProfessionTable(archaeology);
+		addProfessionTable(cooking);
+		addProfessionTable(firstaid);
+	}
 
-        table.appendChild(tr);
-    }
-    body.appendChild(table);
-}
+	function toggleDiv(id) {
+		var div = document.getElementById(id);
+		div.style.display = div.style.display == "none" ? "block" : "none";
+	}
+
+	//this code returns the name of the variable, but it triggers deprecicated calls in chrome. I'd like to replace it.
+	function window_getVarName(what) {
+		for (var name in window) {
+			if (window[name]==what) {
+				return(name);
+			}
+		}
+		return("");
+	}
 </script>
