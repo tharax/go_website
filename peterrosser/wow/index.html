@@ -1,4 +1,5 @@
 <head>
+	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 
 <body onload='addProfessionTables()'>
@@ -37,40 +38,70 @@
 
 <script>
 	function addProfessionTable(obj) {
-		var body = document.getElementsByTagName('body')[0];
-		var div = document.createElement('table');
-		var table = document.createElement('table');
-		div.setAttribute('id', 'div-' + window_getVarName(obj));
-		div.setAttribute('style', 'display: none');
-
-		//This code sets row headers. I don't think this is tidy.
-		var tr = document.createElement('tr');
-		var recipe =  obj[0];
-		var columns = ['id','name','creates','reagents']
-		for (var key in columns) {
-			var td = document.createElement('td');
-			td.appendChild(document.createTextNode(columns[key]));
-			tr.appendChild(td);
-		}
-		table.appendChild(tr);
-
+		var columns = ['id','name','creates','reagents','know recipe','know transmog','can be transmog']
+		
 		//Add each item to the table.
+		var table = document.getElementById('recipeTable');
 		for (var i = 0; i < obj.length; i++) {
 			var tr = document.createElement('tr');
 			var recipe = obj[i];
 			for (var key in columns) {
 				var value = recipe[columns[key]];
 				var td = document.createElement('td');
-				td.appendChild(document.createTextNode(value));
+				if (value !== undefined) {
+					if (columns[key] == 'id') {
+						var anchorElem = document.createElement('a');
+					   anchorElem.setAttribute("href", "http://www.wowhead.com/spell=" + value);
+					   anchorElem.setAttribute("target", "_blank")
+					   anchorElem.innerHTML = value;
+					   td.appendChild(anchorElem)
+					} else 
+					if (columns[key] == 'creates') {
+						var anchorElem = document.createElement('a');
+					   anchorElem.setAttribute("href", "http://www.wowhead.com/item=" + value[0]);
+					   anchorElem.setAttribute("target", "_blank")
+					   anchorElem.innerHTML = value[0];
+					   td.appendChild(anchorElem)
+					   td.appendChild(document.createTextNode(' ' + value[1] + ' ' + value[2]));
+					} else if (columns[key] == 'reagents'){
+						for (var xyz in recipe[columns[key]]) {
+						var anchorElem = document.createElement('a');
+					   anchorElem.setAttribute("href", "http://www.wowhead.com/item=" + recipe[columns[key]][xyz][0]);
+					    anchorElem.setAttribute("target", "_blank")
+					   anchorElem.innerHTML = recipe[columns[key]][xyz][0];
+					   td.appendChild(anchorElem)
+					   td.appendChild(document.createTextNode(' ' + recipe[columns[key]][xyz][1] + ' '));
+					}
+					} else {
+					td.appendChild(document.createTextNode(value));
+						
+					}
+				} else {
+					td.appendChild(document.createTextNode(''));
+				}
 				tr.appendChild(td);
 			}
 			table.appendChild(tr);
 		}
-		div.appendChild(table);
-		body.appendChild(div);
+		
 	}
 
 	function addProfessionTables(){
+		var body = document.getElementsByTagName('body')[0];
+		var div = document.createElement('div');
+		var table = document.createElement('table');
+		table.setAttribute('id', 'recipeTable');
+		var tr = document.createElement('tr');
+		var columns = ['id','name','creates','reagents', 'know recipe','know transmog','can be transmog'];
+		for (var key in columns) {
+			var th = document.createElement('th');
+			th.appendChild(document.createTextNode(columns[key]));
+			tr.appendChild(th);
+		}
+		table.appendChild(tr);
+		div.appendChild(table);
+		body.appendChild(div);
+
 		addProfessionTable(alchemy);
 		addProfessionTable(blacksmithing);
 		addProfessionTable(enchanting);
