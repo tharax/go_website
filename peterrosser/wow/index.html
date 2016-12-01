@@ -46,10 +46,10 @@
 		//This code sets row headers. I don't think this is tidy.
 		var tr = document.createElement('tr');
 		var recipe =  obj[0];
-		for (var key in recipe) {
-			var value = key;
+		var columns = ['id','name','creates','reagents']
+		for (var key in columns) {
 			var td = document.createElement('td');
-			td.appendChild(document.createTextNode(value));
+			td.appendChild(document.createTextNode(columns[key]));
 			tr.appendChild(td);
 		}
 		table.appendChild(tr);
@@ -58,8 +58,8 @@
 		for (var i = 0; i < obj.length; i++) {
 			var tr = document.createElement('tr');
 			var recipe = obj[i];
-			for (var key in recipe) {
-				var value = recipe[key];
+			for (var key in columns) {
+				var value = recipe[columns[key]];
 				var td = document.createElement('td');
 				td.appendChild(document.createTextNode(value));
 				tr.appendChild(td);
