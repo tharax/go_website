@@ -3,124 +3,85 @@
 </head>
 
 <body onload='addProfessionTables()'>
-	<div id='options'>
-		<button id='button-alchemy'        onclick="toggleDiv('div-alchemy')"       >alchemy</button>
-		<button id='button-blacksmithing'  onclick="toggleDiv('div-blacksmithing')" >blacksmithing</button>
-		<button id='button-enchanting'     onclick="toggleDiv('div-enchanting')"    >enchanting</button>
-		<button id='button-engineering'    onclick="toggleDiv('div-engineering')"   >engineering</button>
-		<button id='button-herbalism'      onclick="toggleDiv('div-herbalism')"     >herbalism</button>
-		<button id='button-inscription'    onclick="toggleDiv('div-inscription')"   >inscription</button>
-		<button id='button-jewelcrafting'  onclick="toggleDiv('div-jewelcrafting')" >jewelcrafting</button>
-		<button id='button-leatherworking' onclick="toggleDiv('div-leatherworking')">leatherworking</button>
-		<button id='button-mining'         onclick="toggleDiv('div-mining')"        >mining</button>
-		<button id='button-skinning'       onclick="toggleDiv('div-skinning')"      >skinning</button>
-		<button id='button-tailoring'      onclick="toggleDiv('div-tailoring')"     >tailoring</button>
-		<button id='button-archaeology'    onclick="toggleDiv('div-archaeology')"   >archaeology</button>
-		<button id='button-cooking'        onclick="toggleDiv('div-cooking')"       >cooking</button>
-		<button id='button-firstaid'       onclick="toggleDiv('div-firstaid')"      >firstaid</button>
-	</div>
+	<div id="recipes">
+	<input class="search" placeholder="Search" />
+	  <button class="sort" data-sort="name">
+	    Sort
+	  </button>
+	<table id="recipes-table">
+    <!-- IMPORTANT, class="list" have to be at tbody -->
+    <tbody id="recipes-tbody" class="list">
+    </tbody>
+  </table>
+  </div>
 </body>
 
-<script type='text/javascript' src='alchemy.json'></script>
-<script type='text/javascript' src='blacksmithing.json'></script>
-<script type='text/javascript' src='enchanting.json'></script>
-<script type='text/javascript' src='engineering.json'></script>
-<script type='text/javascript' src='herbalism.json'></script>
-<script type='text/javascript' src='inscription.json'></script>
-<script type='text/javascript' src='jewelcrafting.json'></script>
-<script type='text/javascript' src='leatherworking.json'></script>
-<script type='text/javascript' src='mining.json'></script>
-<script type='text/javascript' src='skinning.json'></script>
-<script type='text/javascript' src='tailoring.json'></script>
-<script type='text/javascript' src='archaeology.json'></script>
-<script type='text/javascript' src='cooking.json'></script>
-<script type='text/javascript' src='firstaid.json'></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="http://listjs.com/assets/javascripts/list.min.js"></script>
 
-<script>
+<script src='alchemy.json'></script>
+<script src='blacksmithing.json'></script>
+<script src='enchanting.json'></script>
+<script src='engineering.json'></script>
+<script src='herbalism.json'></script>
+<script src='inscription.json'></script>
+<script src='jewelcrafting.json'></script>
+<script src='leatherworking.json'></script>
+<script src='mining.json'></script>
+<script src='skinning.json'></script>
+<script src='tailoring.json'></script>
+<script src='archaeology.json'></script>
+<script src='cooking.json'></script>
+<script src='firstaid.json'></script>
+
+<script type="text/javascript">
+	var options = {
+		valueNames: [ 'profession','id','name','creates','reagents', 'knowrecipe','knowtransmog','canbetransmog' ],
+		// Since there are no elements in the list, this will be used as template.
+		item: '<tr><td class="profession"></td><td class="id"></td>  <td class="name"></td><td class="creates"></td>  <td class="reagents"></td><td class="knowrecipe"></td>  <td class="knowtransmog"></td><td class="canbetransmog"></td></tr>'
+	};
+
+	var userList = new List('recipes', options);
 	function addProfessionTable(obj) {
-		var columns = ['id','name','creates','reagents','know recipe','know transmog','can be transmog']
-		
-		//Add each item to the table.
-		var table = document.getElementById('recipeTable');
 		for (var i = 0; i < obj.length; i++) {
-			var tr = document.createElement('tr');
-			var recipe = obj[i];
-			for (var key in columns) {
-				var value = recipe[columns[key]];
-				var td = document.createElement('td');
-				if (value !== undefined) {
-					if (columns[key] == 'id') {
-						var anchorElem = document.createElement('a');
-					   anchorElem.setAttribute("href", "http://www.wowhead.com/spell=" + value);
-					   anchorElem.setAttribute("target", "_blank")
-					   anchorElem.innerHTML = value;
-					   td.appendChild(anchorElem)
-					} else 
-					if (columns[key] == 'creates') {
-						var anchorElem = document.createElement('a');
-					   anchorElem.setAttribute("href", "http://www.wowhead.com/item=" + value[0]);
-					   anchorElem.setAttribute("target", "_blank")
-					   anchorElem.innerHTML = value[0];
-					   td.appendChild(anchorElem)
-					   td.appendChild(document.createTextNode(' ' + value[1] + ' ' + value[2]));
-					} else if (columns[key] == 'reagents'){
-						for (var xyz in recipe[columns[key]]) {
-						var anchorElem = document.createElement('a');
-					   anchorElem.setAttribute("href", "http://www.wowhead.com/item=" + recipe[columns[key]][xyz][0]);
-					    anchorElem.setAttribute("target", "_blank")
-					   anchorElem.innerHTML = recipe[columns[key]][xyz][0];
-					   td.appendChild(anchorElem)
-					   td.appendChild(document.createTextNode(' ' + recipe[columns[key]][xyz][1] + ' '));
-					}
-					} else {
-					td.appendChild(document.createTextNode(value));
-						
-					}
-				} else {
-					td.appendChild(document.createTextNode(''));
-				}
-				tr.appendChild(td);
-			}
-			table.appendChild(tr);
+			userList.add({
+				'profession': window_getVarName(obj),
+				'id': obj[i].id,
+				'name': obj[i].name,
+				'creates': obj[i].creates,
+				'reagents': obj[i].reagents,
+				'knowrecipe': obj[i].knowrecipe,
+				'knowtransmog': obj[i].knowtransmog,
+				'canbetransmog': obj[i].canbetransmog
+			});
 		}
-		
 	}
 
 	function addProfessionTables(){
-		var body = document.getElementsByTagName('body')[0];
-		var div = document.createElement('div');
-		var table = document.createElement('table');
-		table.setAttribute('id', 'recipeTable');
+		var tbody = document.getElementById('recipes-tbody');
 		var tr = document.createElement('tr');
-		var columns = ['id','name','creates','reagents', 'know recipe','know transmog','can be transmog'];
+		var columns = ['profession','id','name','creates','reagents', 'know recipe','know transmog','can be transmog'];
 		for (var key in columns) {
 			var th = document.createElement('th');
 			th.appendChild(document.createTextNode(columns[key]));
 			tr.appendChild(th);
 		}
-		table.appendChild(tr);
-		div.appendChild(table);
-		body.appendChild(div);
+		tbody.appendChild(tr);
 
-		addProfessionTable(alchemy);
-		addProfessionTable(blacksmithing);
-		addProfessionTable(enchanting);
-		addProfessionTable(engineering);
-		addProfessionTable(herbalism);
-		addProfessionTable(inscription);
-		addProfessionTable(jewelcrafting);
+		// addProfessionTable(alchemy);
+		// addProfessionTable(blacksmithing);
+		// addProfessionTable(enchanting);
+		// addProfessionTable(engineering);
+		// addProfessionTable(herbalism);
+		// addProfessionTable(inscription);
+		// addProfessionTable(jewelcrafting);
 		addProfessionTable(leatherworking);
-		addProfessionTable(mining);
-		addProfessionTable(skinning);
-		addProfessionTable(tailoring);
-		addProfessionTable(archaeology);
-		addProfessionTable(cooking);
-		addProfessionTable(firstaid);
-	}
-
-	function toggleDiv(id) {
-		var div = document.getElementById(id);
-		div.style.display = div.style.display == "none" ? "block" : "none";
+		// addProfessionTable(mining);
+		// addProfessionTable(skinning);
+		// addProfessionTable(tailoring);
+		// addProfessionTable(archaeology);
+		// addProfessionTable(cooking);
+		// addProfessionTable(firstaid);
 	}
 
 	//this code returns the name of the variable, but it triggers deprecicated calls in chrome. I'd like to replace it.
@@ -132,4 +93,4 @@
 		}
 		return("");
 	}
-</script>
+</script>	
