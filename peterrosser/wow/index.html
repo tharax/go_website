@@ -9,8 +9,15 @@
 	    Sort
 	  </button>
 	<table id="recipes-table">
+	
     <!-- IMPORTANT, class="list" have to be at tbody -->
     <tbody id="recipes-tbody" class="list">
+    <tr>
+	<th>profession</th>
+	<th>id</th>
+	<th>name</th>
+	<th>creates</th><th>reagents</th><th>knowrecipe</th><th>knowtransmog</th><th>canbetransmog</th>
+	</tr>
     </tbody>
   </table>
   </div>
@@ -45,7 +52,7 @@
 	function addProfessionTable(obj) {
 		for (var i = 0; i < obj.length; i++) {
 			userList.add({
-				'profession': window_getVarName(obj),
+				'profession': obj[i].profession,
 				'id': obj[i].id,
 				'name': obj[i].name,
 				'creates': obj[i].creates,
@@ -75,10 +82,10 @@
 		// addProfessionTable(herbalism);
 		// addProfessionTable(inscription);
 		// addProfessionTable(jewelcrafting);
-		addProfessionTable(leatherworking);
+		// addProfessionTable(leatherworking);
 		// addProfessionTable(mining);
 		// addProfessionTable(skinning);
-		// addProfessionTable(tailoring);
+		addProfessionTable(tailoring);
 		// addProfessionTable(archaeology);
 		// addProfessionTable(cooking);
 		// addProfessionTable(firstaid);
