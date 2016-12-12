@@ -22,7 +22,6 @@ func main() {
 
 	// create different handlers for different hosts.
 	r := mux.NewRouter()
-	r.Host("peterrosser.com/sql").Handler(http.HandlerFunc(sqlHandler))
 	r.Host("peterrosser.com").Handler(http.FileServer(http.Dir("./peterrosser")))
 	r.Host("thefirsttrust.org").Handler(http.FileServer(http.Dir("./thefirsttrust")))
 	r.Host("rosser.software").Handler(http.FileServer(http.Dir("./rossersoftware")))
