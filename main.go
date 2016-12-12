@@ -27,12 +27,6 @@ func main() {
 	r.Host("rosser.software").Handler(http.FileServer(http.Dir("./rossersoftware")))
 	r.Host("rossersoftware.com").Handler(http.FileServer(http.Dir("./rossersoftware")))
 
-	// TODO: is there a nicer way to include these with the handlers above (as they point to the same places).
-	r.Host("{subdomain:[a-z]+}.peterrosser.com").Handler(http.FileServer(http.Dir("./peterrosser")))
-	r.Host("{subdomain:[a-z]+}.thefirsttrust.org").Handler(http.FileServer(http.Dir("./thefirsttrust")))
-	r.Host("{subdomain:[a-z]+}.rosser.software").Handler(http.FileServer(http.Dir("./rossersoftware")))
-	r.Host("{subdomain:[a-z]+}.rossersoftware.com").Handler(http.FileServer(http.Dir("./rossersoftware")))
-
 	// create the server.
 	server := http.Server{
 		Addr:      ":443",
