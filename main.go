@@ -1,4 +1,4 @@
-package main
+package webserver
 
 import (
 	"crypto/tls"
@@ -24,7 +24,7 @@ func main() {
 	r := mux.NewRouter()
 	r.Host("peterrosser.com").Handler(http.FileServer(http.Dir("./website/peterrosser")))
 	r.Host("thefirsttrust.org").Handler(http.FileServer(http.Dir("./website/thefirsttrust")))
-	r.Host("rosser.software").Handler(http.FileServer(http.Dir("./website/rossersoftware")))
+	addRosserSoftwareHost(r)
 	r.Host("rossersoftware.com").Handler(http.FileServer(http.Dir("./website/rossersoftware")))
 
 	// create the server.
