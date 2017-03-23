@@ -12,7 +12,7 @@ import (
 func main() {
 
 	// redirect every http request to https.
-	go http.ListenAndServe(":80", http.HandlerFunc(redirect))
+	go http.ListenAndServe(":80", http.HandlerFunc(redirectToTLS))
 
 	// create a list of all SSL certs.
 	config := &tls.Config{}
@@ -24,10 +24,10 @@ func main() {
 
 	// create different handlers for different hosts.
 	r := mux.NewRouter()
-	r.Host("peterrosser.com").Handler(websites.PersonalServer())
-	r.Host("thefirsttrust.org").Handler(http.FileServer(http.Dir("./website/thefirsttrust")))
-	addRosserSoftwareHost(r)
-	r.Host("rossersoftware.com").Handler(http.FileServer(http.Dir("./website/rossersoftware")))
+	r.Host("peterrosser.com").Handler(websites.PersonalHandler())
+	r.Host("thefirsttrust.org").Handler(websites.TrustHandler())
+	r.Host("rossersoftware.com").Handler(websites.BusinessHandler())
+	r.Host("rosser.software").Handler(websites.BusinessHandler())
 
 	// create the server.
 	server := http.Server{
@@ -48,6 +48,6 @@ func getCert(website string) (cert tls.Certificate) {
 	return cert
 }
 
-func redirect(w http.ResponseWriter, req *http.Request) {
+func redirectToTLS(w http.ResponseWriter, req *http.Request) {
 	http.Redirect(w, req, "https://"+req.Host+req.URL.String(), http.StatusMovedPermanently)
 }
