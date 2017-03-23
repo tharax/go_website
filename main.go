@@ -2,9 +2,11 @@ package main
 
 import (
 	"crypto/tls"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/tharax/websites"
 )
 
 func main() {
@@ -22,7 +24,7 @@ func main() {
 
 	// create different handlers for different hosts.
 	r := mux.NewRouter()
-	r.Host("peterrosser.com").Handler(http.FileServer(http.Dir("./website/peterrosser")))
+	r.Host("peterrosser.com").Handler(websites.PersonalServer())
 	r.Host("thefirsttrust.org").Handler(http.FileServer(http.Dir("./website/thefirsttrust")))
 	addRosserSoftwareHost(r)
 	r.Host("rossersoftware.com").Handler(http.FileServer(http.Dir("./website/rossersoftware")))
