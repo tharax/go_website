@@ -18,7 +18,6 @@ func main() {
 	config := &tls.Config{}
 	config.Certificates = append(config.Certificates, getCert("peterrosser.com"))
 	config.Certificates = append(config.Certificates, getCert("thefirsttrust.org"))
-	config.Certificates = append(config.Certificates, getCert("rosser.software"))
 	config.Certificates = append(config.Certificates, getCert("rossersoftware.com"))
 	config.BuildNameToCertificate()
 
@@ -27,7 +26,6 @@ func main() {
 	r.Host("peterrosser.com").Handler(websites.PersonalHandler())
 	r.Host("thefirsttrust.org").Handler(websites.TrustHandler())
 	r.Host("rossersoftware.com").Handler(websites.BusinessHandler())
-	r.Host("rosser.software").Handler(websites.BusinessHandler())
 
 	// create the server.
 	server := http.Server{
@@ -37,7 +35,6 @@ func main() {
 	}
 
 	server.ListenAndServeTLS("", "")
-
 }
 
 func getCert(website string) (cert tls.Certificate) {
